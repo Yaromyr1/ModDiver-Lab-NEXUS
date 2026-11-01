@@ -1,0 +1,10 @@
+{
+  "application": "ModDiver Laboratory",
+  "files": [
+    "ModDiver Laboratory.exe",
+    "NEXUS-README.md",
+    "NEXUS-LICENSES.md",
+    "SHA256SUMS.txt",
+    "uninstall-manifest.json"
+  ]
+}
