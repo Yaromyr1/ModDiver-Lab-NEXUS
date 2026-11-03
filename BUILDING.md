@@ -1,7 +1,5 @@
 # Build the Nexus edition from source
 
-**Draft publication status:** these commands passed against the complete isolated local source. This GitHub branch currently withholds four key-bearing files pending explicit approval; it cannot build standalone until they are restored. See [publication status](review/PUBLICATION-STATUS.md).
-
 ## Version and requirements
 
 These instructions build the Nexus-staged **2.4.2** source in `source/`.
@@ -75,7 +73,7 @@ Building the Linux archive is not a Linux/Proton runtime or gameplay test.
 ## Third-party code and binaries
 
 Unchanged binary and large build inputs come from the hash-pinned public v2.3.6 Windows asset;
-the updated wav2wem binary comes from its pinned upstream v0.1 release. Small
+the updated wav2wem binary comes from its pinned upstream v0.1 release. The
 application code and remaining assets are tracked directly. `build-inputs.json` records
 each restored file's path, size and digest. `signing/dependency-lock.json` records
 the selected PE inputs. Neither file certifies safety or resolves outstanding

@@ -705,7 +705,7 @@ def write_nexus_docs(folder, version):
     notices = notices[:start] + notices[end:]
     notices = ("# Third-party notices for the Nexus build\n\n" + notices.split("\n", 1)[1]
                + "\n\nChef Shared Loader, SHODAN Stat Editor and ModDiverEditor are omitted from this build.\n"
-               + "Source code and third-party notices: https://github.com/Yaromyr1/ModDiver-Lab\n")
+               + "Source code and third-party notices: https://github.com/Yaromyr1/ModDiver-Lab-NEXUS\n")
     (folder / "NEXUS-LICENSES.md").write_text(notices, encoding="utf-8")
 
 

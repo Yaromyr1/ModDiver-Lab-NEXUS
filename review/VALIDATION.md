@@ -1,4 +1,4 @@
-# Source publication validation — 3 November 2026
+# Source publication validation — 3 November 2026 (UTC)
 
 Validation was performed in an isolated copy of the local 2.4.2 project on Windows.
 The original project, existing GitHub release assets, and Nexus uploads were not
@@ -8,7 +8,7 @@ modified by this work.
 - Extracted the Windows embedded app and Linux application source as data;
   verified every extracted member against the committed historical manifest.
 - Restored the initially selected 22 large build inputs from the pinned cache;
-  subsequently extended the same mechanism to 76 unchanged binary/large inputs.
+  subsequently extended the same mechanism to all 76 unchanged binary/large inputs and verified a full restoration.
 - Replaced the isolated copy's wav2wem with the upstream v0.1 bytes matching the
   existing dependency lock and GitHub's published asset digest. The original
   local copy differed from that digest and was left untouched.

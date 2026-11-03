@@ -1,8 +1,6 @@
-# ModDiver Laboratory — source-publication draft
+# ModDiver Laboratory — Nexus source and review materials
 
-**Incomplete draft: [four key-bearing source files await explicit publication approval](review/PUBLICATION-STATUS.md). Do not merge or use this branch as a standalone buildable checkout yet.**
-
-This repository contains the available Nexus-staged **2.4.2 application source**,
+This repository contains the complete Nexus-staged **2.4.2 application source**,
 Windows launcher source, build tools, license notices, and hash-pinned build inputs.
 It also provides a verified extraction procedure for the published **2.3.6**
 Windows and Linux application sources currently relevant to quarantine review.
