@@ -1,0 +1,12 @@
+{
+  "name": "Stratagem Balls Stay Put",
+  "version": "1.0.4",
+  "target": "data/game/generated_stratagem_settings.dl_bin",
+  "sha256": "e6f7a33dd9da8936d416e520cf3e5b51a87e86f7b17df7974620ae03099909c1",
+  "stock_fingerprints": [
+    "82424:DD98DBD9FBBBC0B09F6DBB86FE4A8CFDD487AD8CCEC04037AA9BF62855BEC25A2B0034777BEE970F13926D6F7D14E06E5719199829009E3AE20C69A2BC5CE654D2F50DD6EDB95917ABEC01EE57C0975FB2EA2B879397C3D4742A4E64B881C51B"
+  ],
+  "source_archive": "Stratagem-Balls-Stay-Put-1.0.4FIX.zip",
+  "source_sha256": "4acd100cc516e4faa15329ca19d9c342dfb6e4e2be0ef0c7248c9572f50f58b2",
+  "data_bot_build": "26251122"
+}

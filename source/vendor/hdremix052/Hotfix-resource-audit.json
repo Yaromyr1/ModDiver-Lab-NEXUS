@@ -1,0 +1,713 @@
+{
+  "build": 26251122,
+  "files": {
+    "dl_library.dl_typelib": {
+      "cipher_sha256": "4d4db6e7a057b9e5ad023894f1629f031520823be80ea6099cde8f3e27c0bee1",
+      "plain_sha256": "a2392b58c80a2a702f8dd33ff45ced3b67548499d731c9b2d92dddfe712a6b88",
+      "bytes": 1080072,
+      "reference_plain_sha256": "a2392b58c80a2a702f8dd33ff45ced3b67548499d731c9b2d92dddfe712a6b88",
+      "plain_identical_to_previous": true,
+      "resource_hash": "1cc97f32e0daa895"
+    },
+    "generated_customization_armor_sets.dl_bin": {
+      "cipher_sha256": "373bb4eb459fed0f26575f4b9192bc3c678b3ac989d5976a60db66a057c7e8ae",
+      "plain_sha256": "9dab2ea0b40a11e5d3b16eb5bd3d3e7d87fe61f34c0a060313162c82d3fe6274",
+      "bytes": 453252,
+      "reference_plain_sha256": "9dab2ea0b40a11e5d3b16eb5bd3d3e7d87fe61f34c0a060313162c82d3fe6274",
+      "plain_identical_to_previous": true,
+      "resource_hash": "57a949680bbda9e1"
+    },
+    "generated_entities.dl_bin": {
+      "cipher_sha256": "4121f332a6d163074521073c250d49514d5b7d20593ba34a0d1f808521370683",
+      "plain_sha256": "dc6d52a14900942b2f59f56bf8ab1552259832202dcb0745c3c84a009ff5f98b",
+      "bytes": 47259444,
+      "reference_plain_sha256": "dc6d52a14900942b2f59f56bf8ab1552259832202dcb0745c3c84a009ff5f98b",
+      "plain_identical_to_previous": true,
+      "resource_hash": "8e49771b181ffaa1"
+    },
+    "generated_stratagem_settings.dl_bin": {
+      "cipher_sha256": "f27e2fe8ee7564e9c815a6acad248144e76a1cbc4540563c5e22ed2eab39d542",
+      "plain_sha256": "5a5d54a1d0acab62b4e657f3bdb3ab55e4f279d43482f6d1edafe762a4bc7c2d",
+      "bytes": 82424,
+      "reference_plain_sha256": "7b5d4a0201547861abbecb6d6fd48e49be5325de495ea10cb496b78a21f27b98",
+      "plain_identical_to_previous": false,
+      "resource_hash": "ceb9fbb1566559de"
+    }
+  },
+  "game_writes": 0,
+  "build_and_passive_hashes": {
+    "bin/helldivers2.exe": "257fd7de21a04e8668e02e5c820edf3435176fbde3569765255cc52a5ea20f9d",
+    "data/game/game.dll": "61dcfcd201dacbf3545c97beb8a5a6186e9850d2670bf60b0e058320b477f6df",
+    "data/game/dl_library.dl_typelib": "4d4db6e7a057b9e5ad023894f1629f031520823be80ea6099cde8f3e27c0bee1",
+    "data/game/generated_customization_passive_bonuses.dl_bin": "8d9897ac97e500c0d743fc7198939ea34fa08f45e6ccb848614ee95587bb1706"
+  },
+  "armor_records": 422,
+  "targets": [
+    {
+      "definition": 3890208935,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 1934028230,
+      "present": true,
+      "current_tag": 2174788060,
+      "compatible": true
+    },
+    {
+      "definition": 856924396,
+      "present": true,
+      "current_tag": 2174788060,
+      "compatible": true
+    },
+    {
+      "definition": 2325051543,
+      "present": true,
+      "current_tag": 3201373673,
+      "compatible": true
+    },
+    {
+      "definition": 904434511,
+      "present": true,
+      "current_tag": 3201373673,
+      "compatible": true
+    },
+    {
+      "definition": 2483492566,
+      "present": true,
+      "current_tag": 19638478,
+      "compatible": true
+    },
+    {
+      "definition": 4004823774,
+      "present": true,
+      "current_tag": 19638478,
+      "compatible": true
+    },
+    {
+      "definition": 470325800,
+      "present": true,
+      "current_tag": 1849408484,
+      "compatible": true
+    },
+    {
+      "definition": 4191752871,
+      "present": true,
+      "current_tag": 1849408484,
+      "compatible": true
+    },
+    {
+      "definition": 865246378,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 2675118910,
+      "present": true,
+      "current_tag": 3688342539,
+      "compatible": true
+    },
+    {
+      "definition": 793893084,
+      "present": true,
+      "current_tag": 3688342539,
+      "compatible": true
+    },
+    {
+      "definition": 1058794522,
+      "present": true,
+      "current_tag": 39053980,
+      "compatible": true
+    },
+    {
+      "definition": 1481290619,
+      "present": true,
+      "current_tag": 39053980,
+      "compatible": true
+    },
+    {
+      "definition": 3414071094,
+      "present": true,
+      "current_tag": 1106702558,
+      "compatible": true
+    },
+    {
+      "definition": 3964228207,
+      "present": true,
+      "current_tag": 1106702558,
+      "compatible": true
+    },
+    {
+      "definition": 582381095,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 463066946,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 453241154,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 2002245864,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 1902399433,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 4028901518,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 1917397047,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 3076249017,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 1838911009,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 2925099185,
+      "present": true,
+      "current_tag": 1066627463,
+      "compatible": true
+    },
+    {
+      "definition": 3534240935,
+      "present": true,
+      "current_tag": 1066627463,
+      "compatible": true
+    },
+    {
+      "definition": 1685612430,
+      "present": true,
+      "current_tag": 2938620897,
+      "compatible": true
+    },
+    {
+      "definition": 3180731004,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 1695626205,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 2962098489,
+      "present": true,
+      "current_tag": 3744682455,
+      "compatible": true
+    },
+    {
+      "definition": 2511084797,
+      "present": true,
+      "current_tag": 3744682455,
+      "compatible": true
+    },
+    {
+      "definition": 1951513251,
+      "present": true,
+      "current_tag": 3147206359,
+      "compatible": true
+    },
+    {
+      "definition": 505999640,
+      "present": true,
+      "current_tag": 2578577070,
+      "compatible": true
+    },
+    {
+      "definition": 1910769380,
+      "present": true,
+      "current_tag": 2578577070,
+      "compatible": true
+    },
+    {
+      "definition": 461580715,
+      "present": true,
+      "current_tag": 3320396122,
+      "compatible": true
+    },
+    {
+      "definition": 4123751987,
+      "present": true,
+      "current_tag": 3320396122,
+      "compatible": true
+    },
+    {
+      "definition": 3690580532,
+      "present": true,
+      "current_tag": 3690580532,
+      "compatible": true
+    },
+    {
+      "definition": 2592491111,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 2457217350,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 3881932101,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 3667835749,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 1675418984,
+      "present": true,
+      "current_tag": 3554845785,
+      "compatible": true
+    },
+    {
+      "definition": 1969314276,
+      "present": true,
+      "current_tag": 1640360918,
+      "compatible": true
+    },
+    {
+      "definition": 2141363041,
+      "present": true,
+      "current_tag": 1891296042,
+      "compatible": true
+    },
+    {
+      "definition": 2606482720,
+      "present": true,
+      "current_tag": 1640360918,
+      "compatible": true
+    },
+    {
+      "definition": 2342442877,
+      "present": true,
+      "current_tag": 1975923293,
+      "compatible": true
+    },
+    {
+      "definition": 124623533,
+      "present": true,
+      "current_tag": 2388063142,
+      "compatible": true
+    },
+    {
+      "definition": 4111053667,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 2020619131,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 3201849683,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 340532591,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 1113633420,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 3058055083,
+      "present": true,
+      "current_tag": 1019672322,
+      "compatible": true
+    },
+    {
+      "definition": 391288265,
+      "present": true,
+      "current_tag": 4054402813,
+      "compatible": true
+    },
+    {
+      "definition": 2669749508,
+      "present": true,
+      "current_tag": 251087110,
+      "compatible": true
+    },
+    {
+      "definition": 2776529082,
+      "present": true,
+      "current_tag": 251087110,
+      "compatible": true
+    },
+    {
+      "definition": 323545031,
+      "present": true,
+      "current_tag": 4154519974,
+      "compatible": true
+    },
+    {
+      "definition": 199989180,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 1513263450,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 534865247,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 2901358327,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 1588662851,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 193259933,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 3265410911,
+      "present": true,
+      "current_tag": 3923064864,
+      "compatible": true
+    },
+    {
+      "definition": 2613138368,
+      "present": true,
+      "current_tag": 3385747670,
+      "compatible": true
+    },
+    {
+      "definition": 3825651408,
+      "present": true,
+      "current_tag": 3923064864,
+      "compatible": true
+    },
+    {
+      "definition": 1155085856,
+      "present": true,
+      "current_tag": 3385747670,
+      "compatible": true
+    },
+    {
+      "definition": 3682449066,
+      "present": true,
+      "current_tag": 1891296042,
+      "compatible": true
+    },
+    {
+      "definition": 2231876405,
+      "present": true,
+      "current_tag": 1891296042,
+      "compatible": true
+    },
+    {
+      "definition": 34232232,
+      "present": true,
+      "current_tag": 1891296042,
+      "compatible": true
+    },
+    {
+      "definition": 1376017051,
+      "present": true,
+      "current_tag": 1891296042,
+      "compatible": true
+    },
+    {
+      "definition": 2015397810,
+      "present": true,
+      "current_tag": 1891296042,
+      "compatible": true
+    },
+    {
+      "definition": 2886393549,
+      "present": true,
+      "current_tag": 2886393549,
+      "compatible": true
+    },
+    {
+      "definition": 1490803405,
+      "present": true,
+      "current_tag": 2767069833,
+      "compatible": true
+    },
+    {
+      "definition": 255960702,
+      "present": true,
+      "current_tag": 243909138,
+      "compatible": true
+    },
+    {
+      "definition": 2070152922,
+      "present": true,
+      "current_tag": 2767069833,
+      "compatible": true
+    },
+    {
+      "definition": 910516311,
+      "present": true,
+      "current_tag": 243909138,
+      "compatible": true
+    },
+    {
+      "definition": 3642074737,
+      "present": true,
+      "current_tag": 243909138,
+      "compatible": true
+    },
+    {
+      "definition": 3826757243,
+      "present": true,
+      "current_tag": 243909138,
+      "compatible": true
+    },
+    {
+      "definition": 1146282869,
+      "present": true,
+      "current_tag": 243909138,
+      "compatible": true
+    },
+    {
+      "definition": 202045192,
+      "present": true,
+      "current_tag": 243909138,
+      "compatible": true
+    },
+    {
+      "definition": 1545242578,
+      "present": true,
+      "current_tag": 4037904357,
+      "compatible": true
+    },
+    {
+      "definition": 1755983237,
+      "present": true,
+      "current_tag": 4037904357,
+      "compatible": true
+    },
+    {
+      "definition": 309304502,
+      "present": true,
+      "current_tag": 4037904357,
+      "compatible": true
+    },
+    {
+      "definition": 88270577,
+      "present": true,
+      "current_tag": 4037904357,
+      "compatible": true
+    },
+    {
+      "definition": 3064132714,
+      "present": true,
+      "current_tag": 4037904357,
+      "compatible": true
+    },
+    {
+      "definition": 2733962024,
+      "present": true,
+      "current_tag": 4037904357,
+      "compatible": true
+    },
+    {
+      "definition": 621795009,
+      "present": true,
+      "current_tag": 3156506855,
+      "compatible": true
+    },
+    {
+      "definition": 487470129,
+      "present": true,
+      "current_tag": 646463911,
+      "compatible": true
+    },
+    {
+      "definition": 1887719913,
+      "present": true,
+      "current_tag": 523672487,
+      "compatible": true
+    },
+    {
+      "definition": 3583338197,
+      "present": true,
+      "current_tag": 1778204756,
+      "compatible": true
+    },
+    {
+      "definition": 325695835,
+      "present": true,
+      "current_tag": 3231326388,
+      "compatible": true
+    },
+    {
+      "definition": 562097037,
+      "present": true,
+      "current_tag": 3156506855,
+      "compatible": true
+    },
+    {
+      "definition": 1332530540,
+      "present": true,
+      "current_tag": 1332530540,
+      "compatible": true
+    },
+    {
+      "definition": 1084741268,
+      "present": true,
+      "current_tag": 646463911,
+      "compatible": true
+    },
+    {
+      "definition": 2363964846,
+      "present": true,
+      "current_tag": 523672487,
+      "compatible": true
+    },
+    {
+      "definition": 1773333561,
+      "present": true,
+      "current_tag": 1773333561,
+      "compatible": true
+    },
+    {
+      "definition": 4000324077,
+      "present": true,
+      "current_tag": 1778204756,
+      "compatible": true
+    },
+    {
+      "definition": 3792160842,
+      "present": true,
+      "current_tag": 3792160842,
+      "compatible": true
+    },
+    {
+      "definition": 275807529,
+      "present": true,
+      "current_tag": 275807529,
+      "compatible": true
+    },
+    {
+      "definition": 4257171265,
+      "present": true,
+      "current_tag": 3231326388,
+      "compatible": true
+    },
+    {
+      "definition": 3057185732,
+      "present": true,
+      "current_tag": 3057185732,
+      "compatible": true
+    },
+    {
+      "definition": 2218652020,
+      "present": true,
+      "current_tag": 2218652020,
+      "compatible": true
+    },
+    {
+      "definition": 3616764107,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 114199832,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 3822047995,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 4112773733,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 2632342951,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 4014974242,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    },
+    {
+      "definition": 1790198010,
+      "present": true,
+      "current_tag": 0,
+      "compatible": true
+    }
+  ]
+}

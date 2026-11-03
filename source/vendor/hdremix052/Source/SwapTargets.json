@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "default_bits": 0,
+  "swaps": [
+    {
+      "name": "Gunner FRV \u2192 Incinerator FRV",
+      "bit": 256,
+      "source": 3935317067,
+      "source_type": 108,
+      "donor": 2846457047,
+      "donor_type": 138,
+      "fields": [
+        {
+          "offset": 8,
+          "bytes": 4,
+          "label": "preview video",
+          "before": "855ed5f7",
+          "after": "a71f4e10",
+          "payload": false
+        },
+        {
+          "offset": 40,
+          "bytes": 4,
+          "label": "uppercase name",
+          "before": "abf0ad79",
+          "after": "7326ac2f",
+          "payload": false
+        },
+        {
+          "offset": 44,
+          "bytes": 4,
+          "label": "name",
+          "before": "e893ba0b",
+          "after": "f16ddcf3",
+          "payload": false
+        },
+        {
+          "offset": 48,
+          "bytes": 4,
+          "label": "description",
+          "before": "2643c607",
+          "after": "9cbca0d3",
+          "payload": false
+        },
+        {
+          "offset": 168,
+          "bytes": 8,
+          "label": "package",
+          "before": "434fc17a9f19df0b",
+          "after": "4d170bbddf40ee2c",
+          "payload": false
+        },
+        {
+          "offset": 176,
+          "bytes": 8,
+          "label": "icon",
+          "before": "57113f5c3e786942",
+          "after": "6b8ec9c0c3d53107",
+          "payload": false
+        },
+        {
+          "offset": 0,
+          "bytes": 8,
+          "label": "spawn payload",
+          "before": "b9efebd3ffc721cc",
+          "after": "e57f71d8e3bf852d",
+          "payload": true
+        }
+      ]
+    },
+    {
+      "name": "Jump Pack \u2192 Dark Fluid Vessel",
+      "bit": 512,
+      "source": 1753436707,
+      "source_type": 137,
+      "donor": 1042447730,
+      "donor_type": 30,
+      "fields": [
+        {
+          "offset": 8,
+          "bytes": 4,
+          "label": "preview video",
+          "before": "aaea75ff",
+          "after": "00000000",
+          "payload": false
+        },
+        {
+          "offset": 40,
+          "bytes": 4,
+          "label": "uppercase name",
+          "before": "d6676183",
+          "after": "161d4f8d",
+          "payload": false
+        },
+        {
+          "offset": 44,
+          "bytes": 4,
+          "label": "name",
+          "before": "ae1531ab",
+          "after": "161d4f8d",
+          "payload": false
+        },
+        {
+          "offset": 48,
+          "bytes": 4,
+          "label": "description",
+          "before": "af2f56ce",
+          "after": "5f66bb60",
+          "payload": false
+        },
+        {
+          "offset": 168,
+          "bytes": 8,
+          "label": "package",
+          "before": "731ab8da1f58783e",
+          "after": "97e5aceac78578d8",
+          "payload": false
+        },
+        {
+          "offset": 176,
+          "bytes": 8,
+          "label": "icon",
+          "before": "db0d44db516745e4",
+          "after": "b1a2bfbed3fbbe98",
+          "payload": false
+        },
+        {
+          "offset": 0,
+          "bytes": 8,
+          "label": "spawn payload",
+          "before": "3277f220f13d3561",
+          "after": "3c3931b9e17f6e6b",
+          "payload": true
+        }
+      ]
+    }
+  ]
+}

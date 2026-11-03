@@ -1,0 +1,33 @@
+{
+  "format": 1,
+  "mods": [
+    {
+      "key": "nomofomo",
+      "build": "26251122",
+      "recipe": "852be839808682c9ad932c6d73ab5a6e799f5cea03eecfdd0aa0c138282cb74a",
+      "stock_plain_sha256": "9dab2ea0b40a11e5d3b16eb5bd3d3e7d87fe61f34c0a060313162c82d3fe6274",
+      "package": "prepared/hidden-content-unlocker.dl_bin",
+      "groups": 63,
+      "padding": false,
+      "output_sha256": "302a4acb4d5a20e57eadc61d91f2835d2eaa2936133e5c08fe19eee593fe9a4c"
+    },
+    {
+      "key": "stratagem_bounce_removed",
+      "build": "26251122",
+      "recipe": "a0c5579bc645107e642488ae25597b513e38dcae7cad60ecc2f74b9d48c3502f",
+      "stock_plain_sha256": "5a5d54a1d0acab62b4e657f3bdb3ab55e4f279d43482f6d1edafe762a4bc7c2d",
+      "package": "gameplay/stratagem_bounce_removed",
+      "member": "data/game/generated_stratagem_settings.dl_bin",
+      "output_sha256": "e6f7a33dd9da8936d416e520cf3e5b51a87e86f7b17df7974620ae03099909c1"
+    },
+    {
+      "key": "consistent_vaulting",
+      "build": "26251122",
+      "recipe": "5d778d21cabbb2e0af0bb3c60e478b5812acbe4518e9dc965e57f48176a96206",
+      "stock_plain_sha256": "dc6d52a14900942b2f59f56bf8ab1552259832202dcb0745c3c84a009ff5f98b",
+      "package": "gameplay/consistent_vaulting",
+      "member": "data/game/generated_entities.dl_bin",
+      "output_sha256": "f256d75d0d68976e7a2ad91b06dbb26deaa594589e89e70abca7018c7aec77a9"
+    }
+  ]
+}

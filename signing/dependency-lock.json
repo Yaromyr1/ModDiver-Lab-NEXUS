@@ -1,0 +1,152 @@
+[
+  {
+    "path": "vendor/audio_engine/tools/avcodec-vgmstream-63.dll",
+    "size": 2501632,
+    "sha256": "047342e36b7f50c9d64e72a9b4b1b18df86e2fc32d6095a189ca361699df166f"
+  },
+  {
+    "path": "vendor/audio_engine/tools/avformat-vgmstream-63.dll",
+    "size": 1515520,
+    "sha256": "6011518f5614582f14fc412fbf2d5192317b0586bcb8adfe1995320cb7227a0b"
+  },
+  {
+    "path": "vendor/audio_engine/tools/avutil-vgmstream-61.dll",
+    "size": 2006016,
+    "sha256": "216ccd7ed4dbe224219420eff7d05f62adf1e94105eeaf3b2b6df8a63085caa0"
+  },
+  {
+    "path": "vendor/audio_engine/tools/ffmpeg.exe",
+    "size": 105423872,
+    "sha256": "3256173f3f8bffd7df12227c68adf68025edb1832273a9530688a7bb1ed8edec"
+  },
+  {
+    "path": "vendor/audio_engine/tools/ffprobe.exe",
+    "size": 105221120,
+    "sha256": "f0d36ecbbdd3bcfac3efa078c96c7271c2e68b3810595552ac3b7f17e9a65c52"
+  },
+  {
+    "path": "vendor/audio_engine/tools/libatrac9.dll",
+    "size": 308736,
+    "sha256": "fe82f1ae13a798337e03942c35351997c23caadb5eb0c6b7a2dc2a521ed8b02e"
+  },
+  {
+    "path": "vendor/audio_engine/tools/libcelt-0061.dll",
+    "size": 110628,
+    "sha256": "542254723d9100f91cbf18e41c4aff80287c22a9859e9e545c413d984df440ad"
+  },
+  {
+    "path": "vendor/audio_engine/tools/libcelt-0110.dll",
+    "size": 105132,
+    "sha256": "bfcc51d865bb3b6a2793381bf535f23ec423feb722b46333fa8556ccdcafa61a"
+  },
+  {
+    "path": "vendor/audio_engine/tools/libg719_decode.dll",
+    "size": 156160,
+    "sha256": "aad61f205ce1f1b61285f6b37b90a331ec8c6ae2f94f361714dc21a12c236960"
+  },
+  {
+    "path": "vendor/audio_engine/tools/libmpg123-0.dll",
+    "size": 429481,
+    "sha256": "018e6833088b3fc7d9a97c3f45abb5f9f947f7c46de4f17fddf423f430fa70fa"
+  },
+  {
+    "path": "vendor/audio_engine/tools/libspeex-1.dll",
+    "size": 129630,
+    "sha256": "04dbc85fcec6c54671535bf39937a70f2dd040a81ad670a0b84de6ca17b39bff"
+  },
+  {
+    "path": "vendor/audio_engine/tools/libvorbis.dll",
+    "size": 287232,
+    "sha256": "5f330a20b19b3c70dc43eedcc95891e65940fca04a77155c573efcdd4c2ca665"
+  },
+  {
+    "path": "vendor/audio_engine/tools/swresample-vgmstream-7.dll",
+    "size": 726528,
+    "sha256": "6de31a1b0caf676a6ebffceb9f540232db312773e97108cd93967e8a280da96e"
+  },
+  {
+    "path": "vendor/audio_engine/tools/vgmstream-cli.exe",
+    "size": 3135488,
+    "sha256": "10fb0691538d3133f0115a071f89775fc99f32210b7e5991cfc3c2869247e4b2"
+  },
+  {
+    "path": "vendor/audio_engine/tools/wav2wem.exe",
+    "size": 5059072,
+    "sha256": "5a10738a73d5451ede6a526a7aa0bfe7f42b41faffe78c9b62ec9f223f91d736"
+  },
+  {
+    "path": "vendor/audio_engine/windows/PIL/_avif.cp314-win_amd64.pyd",
+    "size": 7890432,
+    "sha256": "d8bd3032b72992a8166144a4063bae4a55c0f178d237454f17102301731e912a"
+  },
+  {
+    "path": "vendor/audio_engine/windows/PIL/_imaging.cp314-win_amd64.pyd",
+    "size": 2627072,
+    "sha256": "d823c0e3b54035d08703bb427c553c956c2607b79395f2952e17a5447c5f1105"
+  },
+  {
+    "path": "vendor/audio_engine/windows/PIL/_imagingcms.cp314-win_amd64.pyd",
+    "size": 272384,
+    "sha256": "dff90929dbeb9d51eebf09f4454d0beb65775f7644145a63d66fa8ca9f5a96fd"
+  },
+  {
+    "path": "vendor/audio_engine/windows/PIL/_imagingft.cp314-win_amd64.pyd",
+    "size": 2171392,
+    "sha256": "93c3ca5a3e7119897be9825a0a4228d485410fc8f1e42257edf7e89052c79bce"
+  },
+  {
+    "path": "vendor/audio_engine/windows/PIL/_imagingmath.cp314-win_amd64.pyd",
+    "size": 21504,
+    "sha256": "a7b3d6e462d338744694bc332f9f6f9c5717d532b7a74ad2762b3289521d0d9e"
+  },
+  {
+    "path": "vendor/audio_engine/windows/PIL/_imagingmorph.cp314-win_amd64.pyd",
+    "size": 12288,
+    "sha256": "591905867dd3da9bcf85bc1f84be66817d0399c5a5f25755322e4088c0d42c51"
+  },
+  {
+    "path": "vendor/audio_engine/windows/PIL/_imagingtk.cp314-win_amd64.pyd",
+    "size": 14848,
+    "sha256": "79208042672ff0b9e3669d5078ad35413470861e783feeaf1430458c41036593"
+  },
+  {
+    "path": "vendor/audio_engine/windows/PIL/_webp.cp314-win_amd64.pyd",
+    "size": 416256,
+    "sha256": "f4d851381d1bd937753ba78e951c96a85f3a6c5ac402beec23fc13fdb6d45198"
+  },
+  {
+    "path": "vendor/audio_engine/windows/lz4/_version.cp314-win_amd64.pyd",
+    "size": 11264,
+    "sha256": "9a2523299ae183c3ada536de68e9cf6a033a68e76032c723b40640ef55a5cac5"
+  },
+  {
+    "path": "vendor/audio_engine/windows/lz4/block/_block.cp314-win_amd64.pyd",
+    "size": 76288,
+    "sha256": "2c0f5103b862110d8eaa80ea47f7a7e610f345a2b1d0edf447be94a2f2845dae"
+  },
+  {
+    "path": "vendor/audio_engine/windows/lz4/frame/_frame.cp314-win_amd64.pyd",
+    "size": 115712,
+    "sha256": "54affd658881ed21dcb4d0fa1ed01c528a7173f0bd4d07c351439b0cf51c73e6"
+  },
+  {
+    "path": "vendor/hdremix052/Runtime/libsodium.dll",
+    "size": 346624,
+    "sha256": "5cfdc4bf7628777d4fd807a6f9e15ed8fb6fdaee5be65c816b3c6c3dd1c93ed1"
+  },
+  {
+    "path": "vendor/shodan/libsodium.dll",
+    "size": 484864,
+    "sha256": "396501c7495e4b03d0f8acb2416f3e2431b0cdc404968e17cc0e25c2abc5ca27"
+  },
+  {
+    "path": "vendor/shodan/lua51.dll",
+    "size": 557056,
+    "sha256": "3bbde83d93fd04da4653b06918efeaa32e8e0cd19786f43583991aa1ca705e2b"
+  },
+  {
+    "path": "vendor/shodan/shodan_hash.dll",
+    "size": 123904,
+    "sha256": "141acb2e0f032011d4492f6769c39c4e57547d223c4833e636bf4e744b335327"
+  }
+]

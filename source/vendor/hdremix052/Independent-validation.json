@@ -1,0 +1,41 @@
+{
+  "checks": [
+    {
+      "kind": "armor",
+      "input_plain_sha256": "9dab2ea0b40a11e5d3b16eb5bd3d3e7d87fe61f34c0a060313162c82d3fe6274",
+      "output_plain_sha256": "28e3074f06a99aba0df0060c4b322d6c273ebc3e8e3ba7de50d4658d2118af1f",
+      "resource_hash": "57a949680bbda9e1",
+      "unrelated_existing_bytes_preserved": true,
+      "footer_bytes_added": 12
+    },
+    {
+      "kind": "armor",
+      "input_plain_sha256": "6d7ff5da9c60e8f04b417484986431e57ce3b84311e7745c99a71aee90646f51",
+      "output_plain_sha256": "1fd1f67b74a7000ec00f02d26786039c371a77f99f79d3fbcbd125e0de23b870",
+      "resource_hash": "400d2474bb3ff385",
+      "unrelated_existing_bytes_preserved": true,
+      "footer_bytes_added": 12
+    },
+    {
+      "kind": "entities",
+      "input_plain_sha256": "dc6d52a14900942b2f59f56bf8ab1552259832202dcb0745c3c84a009ff5f98b",
+      "output_plain_sha256": "1ee67b97438d53080ba836c7a6a6e5fb4cd211b12b6291c0d641e7c3024878ce",
+      "resource_hash": "8e49771b181ffaa1",
+      "unrelated_existing_bytes_preserved": true,
+      "footer_bytes_added": 12
+    },
+    {
+      "kind": "entities",
+      "input_plain_sha256": "14715aff6597261526af1e802b91d965de43db87c14309773a5d0c3c103123d7",
+      "output_plain_sha256": "a3075eb69bd928fb1898c2bb9b29952c21e6c14899394846292516d16ddce217",
+      "resource_hash": "be048dc7dbd469be",
+      "unrelated_existing_bytes_preserved": true,
+      "footer_bytes_added": 12
+    }
+  ],
+  "all111_exact_previous_plaintext": true,
+  "original_target_ids_unchanged": true,
+  "independent_crypto": "PyNaCl sealed-box",
+  "independent_hash": "existing Python Murmur64 reference",
+  "in_game_verified": false
+}

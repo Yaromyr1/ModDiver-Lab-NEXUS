@@ -1,0 +1,683 @@
+{
+  "version": "0.5.4",
+  "game_build": 26251122,
+  "groups": [
+    {
+      "bit": 1,
+      "id": "preorder",
+      "name": "Preorder armor sets",
+      "description": "TR-7, TR-9 and TR-62 armor and helmets.",
+      "items": [
+        {
+          "definition": 1934028230,
+          "name": "TR-62 Knight Armor",
+          "category": "armor"
+        },
+        {
+          "definition": 856924396,
+          "name": "TR-62 Knight Helmet",
+          "category": "helmet"
+        },
+        {
+          "definition": 2325051543,
+          "name": "TR-7 Ambassador of the Brand Armor",
+          "category": "armor"
+        },
+        {
+          "definition": 904434511,
+          "name": "TR-7 Ambassador of the Brand Helmet",
+          "category": "helmet"
+        },
+        {
+          "definition": 2483492566,
+          "name": "TR-9 Cavalier of Democracy Armor",
+          "category": "armor"
+        },
+        {
+          "definition": 4004823774,
+          "name": "TR-9 Cavalier of Democracy Helmet",
+          "category": "helmet"
+        }
+      ]
+    },
+    {
+      "bit": 2,
+      "id": "nomofomo",
+      "name": "Other NoMoFOMO cosmetics",
+      "description": "The remaining event, reward and time-limited targets.",
+      "items": [
+        {
+          "definition": 3890208935,
+          "name": "Message of Morale",
+          "category": "cape"
+        },
+        {
+          "definition": 470325800,
+          "name": "TR-40 Gold Eagle Armor",
+          "category": "armor"
+        },
+        {
+          "definition": 4191752871,
+          "name": "TR-40 Gold Eagle Helmet",
+          "category": "helmet"
+        },
+        {
+          "definition": 865246378,
+          "name": "Fallen Hero's Vengeance",
+          "category": "cape"
+        },
+        {
+          "definition": 2675118910,
+          "name": "TR-117 Alpha Commander Armor",
+          "category": "armor"
+        },
+        {
+          "definition": 793893084,
+          "name": "TR-117 Alpha Commander Helmet",
+          "category": "helmet"
+        },
+        {
+          "definition": 1058794522,
+          "name": "DP-00 Tactical Armor",
+          "category": "armor"
+        },
+        {
+          "definition": 1481290619,
+          "name": "DP-00 Tactical Helmet",
+          "category": "helmet"
+        },
+        {
+          "definition": 3414071094,
+          "name": "B-22 Model Citizen Armor",
+          "category": "armor"
+        },
+        {
+          "definition": 3964228207,
+          "name": "B-22 Model Citizen Helmet",
+          "category": "helmet"
+        },
+        {
+          "definition": 582381095,
+          "name": "Eye of Freedom",
+          "category": "cape"
+        },
+        {
+          "definition": 463066946,
+          "name": "Emblem of Freedom",
+          "category": "cape"
+        },
+        {
+          "definition": 453241154,
+          "name": "Eye of Liberty",
+          "category": "cape"
+        },
+        {
+          "definition": 2002245864,
+          "name": "Protector of the Heart",
+          "category": "cape"
+        },
+        {
+          "definition": 1902399433,
+          "name": "Ingress-81",
+          "category": "cape"
+        },
+        {
+          "definition": 4028901518,
+          "name": "Veridical Ideology",
+          "category": "cape"
+        },
+        {
+          "definition": 1917397047,
+          "name": "Against the Tyrant Cloud",
+          "category": "cape"
+        },
+        {
+          "definition": 3076249017,
+          "name": "Reckoning's Cheer",
+          "category": "cape"
+        },
+        {
+          "definition": 1838911009,
+          "name": "United in Equality",
+          "category": "cape"
+        },
+        {
+          "definition": 2925099185,
+          "name": "KDM-500 Outrider Armor",
+          "category": "armor"
+        },
+        {
+          "definition": 3534240935,
+          "name": "KDM-500 Outrider Helmet",
+          "category": "helmet"
+        },
+        {
+          "definition": 1685612430,
+          "name": "IX-Voidwalker Helmet",
+          "category": "helmet"
+        },
+        {
+          "definition": 3180731004,
+          "name": "Pillars of Freedom",
+          "category": "cape"
+        }
+      ]
+    },
+    {
+      "bit": 4,
+      "id": "variants",
+      "name": "Color / gear variants",
+      "description": "The original hidden armor-color module: includes alternate gear variants.",
+      "items": [
+        {
+          "definition": 3265410911,
+          "name": "SC-37 Legionnaire / Armour [hidden kit C2A2375F]",
+          "category": "armor"
+        },
+        {
+          "definition": 2613138368,
+          "name": "SC-37 Legionnaire / Armour [hidden kit 9BC153C0]",
+          "category": "armor"
+        },
+        {
+          "definition": 3825651408,
+          "name": "SC-37 Legionnaire (variant) / Helmet [hidden kit E406CED0]",
+          "category": "helmet"
+        },
+        {
+          "definition": 1155085856,
+          "name": "SC-37 Legionnaire (variant) / Helmet [hidden kit 44D93620]",
+          "category": "helmet"
+        },
+        {
+          "definition": 3682449066,
+          "name": "SC-30 Trailblazer Scout (variant) / Helmet [hidden kit DB7DB6AA]",
+          "category": "helmet"
+        },
+        {
+          "definition": 2231876405,
+          "name": "SC-30 Trailblazer Scout (variant) / Helmet [hidden kit 8507BB35]",
+          "category": "helmet"
+        },
+        {
+          "definition": 34232232,
+          "name": "SC-30 Trailblazer Scout (variant) / Helmet [hidden kit 020A57A8]",
+          "category": "helmet"
+        },
+        {
+          "definition": 1376017051,
+          "name": "SC-30 Trailblazer Scout (variant) / Helmet [hidden kit 52045A9B]",
+          "category": "helmet"
+        },
+        {
+          "definition": 2015397810,
+          "name": "SC-30 Trailblazer Scout (variant) / Helmet [hidden kit 782087B2]",
+          "category": "helmet"
+        },
+        {
+          "definition": 2886393549,
+          "name": "B-24 Enforcer / Armour [hidden kit AC0ADECD]",
+          "category": "armor"
+        },
+        {
+          "definition": 1490803405,
+          "name": "FS-05 Marksman / Armour [hidden kit 58DBDACD]",
+          "category": "armor"
+        },
+        {
+          "definition": 255960702,
+          "name": "FS-05 Marksman / Helmet [hidden kit 0F41A67E]",
+          "category": "helmet"
+        },
+        {
+          "definition": 2070152922,
+          "name": "FS-05 Marksman / Helmet [hidden kit 7B6406DA]",
+          "category": "helmet"
+        },
+        {
+          "definition": 910516311,
+          "name": "FS-05 Marksman / Helmet [hidden kit 36456057]",
+          "category": "helmet"
+        },
+        {
+          "definition": 3642074737,
+          "name": "FS-05 Marksman / Helmet [hidden kit D915A671]",
+          "category": "helmet"
+        },
+        {
+          "definition": 3826757243,
+          "name": "FS-05 Marksman / Helmet [hidden kit E417AE7B]",
+          "category": "helmet"
+        },
+        {
+          "definition": 1146282869,
+          "name": "FS-05 Marksman / Helmet [hidden kit 4452E375]",
+          "category": "helmet"
+        },
+        {
+          "definition": 202045192,
+          "name": "FS-05 Marksman / Helmet [hidden kit 0C0AF708]",
+          "category": "helmet"
+        },
+        {
+          "definition": 1545242578,
+          "name": "SC-34 Infiltrator (variant) / Helmet [hidden kit 5C1A87D2]",
+          "category": "helmet"
+        },
+        {
+          "definition": 1755983237,
+          "name": "SC-34 Infiltrator (variant) / Helmet [hidden kit 68AA2D85]",
+          "category": "helmet"
+        },
+        {
+          "definition": 309304502,
+          "name": "SC-34 Infiltrator (variant) / Helmet [hidden kit 126F9CB6]",
+          "category": "helmet"
+        },
+        {
+          "definition": 88270577,
+          "name": "SC-34 Infiltrator (variant) / Helmet [hidden kit 0542E6F1]",
+          "category": "helmet"
+        },
+        {
+          "definition": 3064132714,
+          "name": "SC-34 Infiltrator (variant) / Helmet [hidden kit B6A2F46A]",
+          "category": "helmet"
+        },
+        {
+          "definition": 2733962024,
+          "name": "SC-34 Infiltrator (variant) / Helmet [hidden kit A2F4F328]",
+          "category": "helmet"
+        },
+        {
+          "definition": 621795009,
+          "name": "B-01 Tactical / Armour [hidden kit 250FD6C1]",
+          "category": "armor"
+        },
+        {
+          "definition": 487470129,
+          "name": "B-01 Tactical / Armour [hidden kit 1D0E3431]",
+          "category": "armor"
+        },
+        {
+          "definition": 1887719913,
+          "name": "B-01 Tactical / Armour [hidden kit 708451E9]",
+          "category": "armor"
+        },
+        {
+          "definition": 3583338197,
+          "name": "B-01 Tactical / Armour [hidden kit D59566D5]",
+          "category": "armor"
+        },
+        {
+          "definition": 325695835,
+          "name": "B-01 Tactical / Armour [hidden kit 1369B95B]",
+          "category": "armor"
+        },
+        {
+          "definition": 562097037,
+          "name": "B-01 Tactical / Helmet [hidden kit 2180EB8D]",
+          "category": "helmet"
+        },
+        {
+          "definition": 1332530540,
+          "name": "B-01 Tactical / Helmet [hidden kit 4F6CCD6C]",
+          "category": "helmet"
+        },
+        {
+          "definition": 1084741268,
+          "name": "B-01 Tactical / Helmet [hidden kit 40A7D694]",
+          "category": "helmet"
+        },
+        {
+          "definition": 1773333561,
+          "name": "B-01 Tactical / Helmet [hidden kit 69B2EC39]",
+          "category": "helmet"
+        },
+        {
+          "definition": 4000324077,
+          "name": "B-01 Tactical / Helmet [hidden kit EE7019ED]",
+          "category": "helmet"
+        },
+        {
+          "definition": 3792160842,
+          "name": "B-01 Tactical / Helmet [hidden kit E207C84A]",
+          "category": "helmet"
+        },
+        {
+          "definition": 275807529,
+          "name": "B-01 Tactical / Helmet [hidden kit 10707D29]",
+          "category": "helmet"
+        },
+        {
+          "definition": 4257171265,
+          "name": "B-01 Tactical / Helmet [hidden kit FDBF4741]",
+          "category": "helmet"
+        },
+        {
+          "definition": 3057185732,
+          "name": "B-01 Tactical / Helmet [hidden kit B638F3C4]",
+          "category": "helmet"
+        },
+        {
+          "definition": 2218652020,
+          "name": "B-01 Tactical / Helmet [hidden kit 843DF174]",
+          "category": "helmet"
+        }
+      ]
+    },
+    {
+      "bit": 8,
+      "id": "hidden_gear",
+      "name": "Other hidden armor and helmets",
+      "description": "Named unreleased/prototype gear, including B-16 and KDM entries.",
+      "items": [
+        {
+          "definition": 2962098489,
+          "name": "B-16 Battle-Scarred Veteran / Armour",
+          "category": "armor"
+        },
+        {
+          "definition": 2511084797,
+          "name": "B-16 Battle-Scarred Veteran / Helmet",
+          "category": "helmet"
+        },
+        {
+          "definition": 1951513251,
+          "name": "B-02 Gloom Warden / Helmet",
+          "category": "helmet"
+        },
+        {
+          "definition": 505999640,
+          "name": "KDM-763 Pacesetter / Armour",
+          "category": "armor"
+        },
+        {
+          "definition": 1910769380,
+          "name": "KDM-763 Pacesetter / Helmet",
+          "category": "helmet"
+        },
+        {
+          "definition": 461580715,
+          "name": "KDM-73 Dragoon / Armour",
+          "category": "armor"
+        },
+        {
+          "definition": 4123751987,
+          "name": "KDM-73 Dragoon / Helmet",
+          "category": "helmet"
+        },
+        {
+          "definition": 1969314276,
+          "name": "SC-30 Trailblazer Scout / Armour [hidden kit 756159E4]",
+          "category": "armor"
+        },
+        {
+          "definition": 2141363041,
+          "name": "SC-30 Trailblazer Scout / Helmet [hidden kit 7FA29B61]",
+          "category": "helmet"
+        },
+        {
+          "definition": 2606482720,
+          "name": "SC-30 Trailblazer Scout (variant) / Helmet [hidden kit 9B5BC520]",
+          "category": "helmet"
+        },
+        {
+          "definition": 2342442877,
+          "name": "B-24 Enforcer / Armour [hidden kit 8B9ED77D]",
+          "category": "armor"
+        },
+        {
+          "definition": 124623533,
+          "name": "FS-05 Marksman / Armour [hidden kit 076D9AAD]",
+          "category": "armor"
+        }
+      ]
+    },
+    {
+      "bit": 16,
+      "id": "hidden_capes",
+      "name": "Named hidden capes",
+      "description": "Hidden cape targets with established names.",
+      "items": [
+        {
+          "definition": 1695626205,
+          "name": "Beacon of Mercy / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 2592491111,
+          "name": "Unreleased Cape / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 2457217350,
+          "name": "Unreleased Cape / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 3881932101,
+          "name": "Unreleased Cape / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 1675418984,
+          "name": "Unreleased Cape / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 4111053667,
+          "name": "Agent of Oblivion / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 2020619131,
+          "name": "Bugslayer / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 3201849683,
+          "name": "Vector of Victory / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 340532591,
+          "name": "Podium of Prosperity / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 1113633420,
+          "name": "Defender of our dream / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 3058055083,
+          "name": "Tyranny's Bane / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 391288265,
+          "name": "Agent of Oblivion / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 3616764107,
+          "name": "JUSTICE FOR ALL / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 114199832,
+          "name": "Patriot Blue / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 3822047995,
+          "name": "Prosperous Green / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 4112773733,
+          "name": "Proud Gold / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 2632342951,
+          "name": "Red Planet's Memory / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 4014974242,
+          "name": "Scraps of Sovereignty / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 1790198010,
+          "name": "Wings of Valor / Cape",
+          "category": "cape"
+        }
+      ]
+    },
+    {
+      "bit": 32,
+      "id": "unnamed",
+      "name": "Unnamed / unidentified cosmetics",
+      "description": "Blank-name or unidentified targets, including NO CAPE.",
+      "items": [
+        {
+          "definition": 3690580532,
+          "name": "Unreleased Cape / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 3667835749,
+          "name": "Unreleased Cape / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 2669749508,
+          "name": "TBD / Armour",
+          "category": "armor"
+        },
+        {
+          "definition": 2776529082,
+          "name": "TBD / Helmet",
+          "category": "helmet"
+        },
+        {
+          "definition": 323545031,
+          "name": "Unidentified kit / Armour",
+          "category": "armor"
+        },
+        {
+          "definition": 199989180,
+          "name": "Unidentified kit / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 1513263450,
+          "name": "Unidentified kit / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 534865247,
+          "name": "Unidentified kit / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 2901358327,
+          "name": "Unidentified kit / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 1588662851,
+          "name": "Unidentified kit / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 193259933,
+          "name": "Unidentified kit / Cape",
+          "category": "cape"
+        },
+        {
+          "definition": 2363964846,
+          "name": "TBD / Helmet [hidden kit 8CE73DAE]",
+          "category": "helmet"
+        }
+      ]
+    }
+  ],
+  "build_hashes": {
+    "data/game/dl_library.dl_typelib": "4d4db6e7a057b9e5ad023894f1629f031520823be80ea6099cde8f3e27c0bee1",
+    "bin/helldivers2.exe": "257fd7de21a04e8668e02e5c820edf3435176fbde3569765255cc52a5ea20f9d",
+    "data/game/game.dll": "61dcfcd201dacbf3545c97beb8a5a6186e9850d2670bf60b0e058320b477f6df"
+  },
+  "stock_armor_original": "373bb4eb459fed0f26575f4b9192bc3c678b3ac989d5976a60db66a057c7e8ae",
+  "legacy_stock_inputs": [
+    "00f1aa56b45123b9f99210e8d82f5560692959ca609ff311186977158baece51",
+    "05e4f7a219f3176b137c5cd5ced7e2d7d092f931854e2e481e13eb77a7482ccb",
+    "082651115976d43befe47f9c5c4946fd174cc39d37461b2d1408a35d1cd82ae1",
+    "09fe4808a1a9d5f4f1d2d2351a27d64462dc15cd7a7ed8d71bb6f1b82125c3a1",
+    "0f4d2d5da12d0a299326f20838e1be0221d1aa5cc4127ea17c9118cddd54fbe2",
+    "13f6f3fe875f6baa7cad75907f83c391fcd0e3c6cbc38bd04e947424205009cc",
+    "1430c3fad1ebbcfeef428c1c0a7a3fd09ae066deed065019e9c125a1fe77fbd7",
+    "146927e1d22ccd7c46a840ec2271f1126fa51b2e1cd9b441a04d3526104eda15",
+    "147df859eddba65e7100e34327c54fb3e47fd46c3990290736dbc6ffb613087c",
+    "14c575d3b2f98c1e2ffa0c3559a38787d036f5df9dce1c84ea9f7ec53401e230",
+    "1c4be53470c9899378566c159fe514bbe1a449b01a79faf3b67f78f99617c917",
+    "1dcda8c559a22b14e618678970f49637ce8a877ce4d7e9afb090c3bf4d63b616",
+    "20aeffbf994de82c9c7216f35e0bf5fc3cf20c23d2cbc2a4a2c1aeffeaf42042",
+    "29f30e97aa0cd91d3e7ff3ffc049f19c1d9a30e957a89dbda2a49ccdba75c40b",
+    "2ee71f55907a490c684a39daac15708f7b5efc70d2ebf5406b33ffeed70d9f11",
+    "31607bc4cef205a7b5dc2b6fd12e3f15cd7925b4501c8206b71ceb62a1eae72e",
+    "31bc465ea71bd85826bdd343872ab6dd83a0ac2f680355d9ff0a7ece71c11ece",
+    "3d9a1e00054f45158ac6ef0e0c8bae57f8fdc87415d9f1b590505b362e64b6f7",
+    "43e74ded8e18068d0f99257bfacf22f35b72b508d7b568c82bd74ca0ed7ac3f0",
+    "453a29980d53ddef47f0343548182de650a80ed8eefc196e55c89a7a73c6c3cf",
+    "4739b50c6e6c105c59b705eef1213e3080caabef7c6d918496c335906732d9db",
+    "5153b9d262693406717a975a2f5a145f89f55aabff767907d646c4c763d05711",
+    "528f914580157a1a28e51058ed8ab136bfe12d7681c03d41661d9b782b1d21d1",
+    "56d7b3d0f96cf4d0e723e8246fdef044bd1f1ce224e369c66c3419ae16117f91",
+    "597018d63f73d437f42b4ec7dc0368e1522a5cf4fc88982887d7f962f33bf0d7",
+    "627e8f50e56dbc0923668f903cc04a074ff901cf1b7178bca5b47012d3b8e044",
+    "68a96ec4212c6c3cdf2b6dcedee7b039e359c6b986b4aaf6e66830eb74a36ec0",
+    "68ec2ae986b154d17a1513162782c92942d14bf7ab45f7421c62be82f976f8ad",
+    "6bdb46724128c3e10aa4be1067cad6f82387d66d482c51f563b8fd3048c938ca",
+    "6d106a5f5fabb796f09733fc1b5d34dbe865c7bc171cbfca4f1d86f0d7fccd90",
+    "6e2c12dee10ea73b8a6f787bea9f3be813dabf3edc0bb3d4d080c7123af86525",
+    "723a2dffb3f8a2fa9a666eda58537808984166de891eb869680f930e5c8d9c64",
+    "735b41884442724b4f5ebafd9eced308842e98b2351b598c057a6d2476716727",
+    "783b027e44d4fe3798daeaef811ae229470834d2aba93021a645d50508f87b3f",
+    "7ac1054c784794d87fb9fdfbd000e0a7b8541fa87d7d2117c4dc028d1ed612b2",
+    "8e8ecf3be68791fb83581a0b9ed073f3316973d04695621b01a6c66965a9af18",
+    "9037bdcbb8a31cad2ab78e1c961de3af0fb79a60f80b0ce75bf421db297b9a3f",
+    "9b3467408bdf8e96e62217755478545695a94a9e470d7af984a55b0652d98a1e",
+    "9b560cb19cd5e8b720b91c6aa77dc2495a5a6cdd07428667b5518273e0cf05b0",
+    "9feaccf1117303e5f1a73db9dfa727cc7bf6f2397112fe79071355a5c69baede",
+    "a0670b684a90869e09fbe56456d24f50c0d90ed717476ff152c196d0dea58867",
+    "a4790928577cf47b9d17c9627b6334b71a7414c5417d83dbefbbb42efe3f49eb",
+    "a63ac55c04673893df777e2fc1753bce3da12a9da92676ca3e5ac8f761650285",
+    "a64088d1e8b591e571727daf68dcdcfff9a99ebac072eb2d866a078b010c3553",
+    "a74c8eb3ab29c27e30d6109b442349d332cbc71df57ce09dfd8ae618aac7673d",
+    "b655b3405d8711692470aa4d6f5533a25aaa217f7ed882965f0e1acec3182974",
+    "b85b40b854739eea4917ca0b6773419a0ddc530ca5fae573ba9828b3f6f3a675",
+    "bd5bf05282f7eeb69bb5938f1320efb2ca3fdb921647580d64a6437584100e94",
+    "be914ea7a4794ad2aad36f80019f0bb940e94d946c09393b0df741aabf7bfccd",
+    "c18ded0714725ebd21e87250efba8026935c8efd9e52b11e701a56c87e4ed66c",
+    "c63465c2fdd4a117a76e91f2b42c0a80816c6a3534262a578e99d093b7496a2c",
+    "c9ffc76b0e6ebe27ab202e91d9d76861ab995685bfcd50bfa1e3d448f48c3ed0",
+    "cb61f21bf49384ecf1cffc12c07138c799bc331340b8f3cb258cc6f48ede7a47",
+    "d17c373e151dd09664d78e2dbc5e45f4c7d75e1463862d732e7742bee4225f4b",
+    "d57f83e9c3ddbc2286bce3c9a51706927637885a79189bc0779cb354d018971a",
+    "d6b98a6041008e6b54ece6294e8eca768cc8057b362b81657b1e482c95f76557",
+    "db37d1c2c55cec006013e43453389adf43e096385e7772801a7c78b4c4fef047",
+    "dd69e543d4b06e29e9cfc219a66ef9d8bab917e8ef9575b1d5a2944c739a9fcf",
+    "e2a08db28634e4a0e7f7281f59b6af7355864cbd8acaf36af3728a830e1809ae",
+    "e5601eb9e7c93598028d60e8168769ef99487202519a79077616640100334abf",
+    "ea42ba6c8c0ff58723faba581bf85df1d9fe655ed919df7cc3de9357fd1b4c55",
+    "ef05f621d37a009c049f21bbb56fbf10e38f1af5084447187e884114c67a2ce7",
+    "f3048a1c6b11315dae14d0d487191029b3eae6fe8a0254e183a8911fb3b89551",
+    "f4294c9a46161e203a68869d15bd6ce474454deeb8b224108fc67a37b128d265",
+    "f78a6dd3253b186f55cbe849a59013ceebb42bcf932ff98dc108a1fbc011f7da"
+  ],
+  "legacy_hash_purpose": "Only for adopting a verified earlier backup. Never used to admit armor/entity inputs for semantic editing."
+}

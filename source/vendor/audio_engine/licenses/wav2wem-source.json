@@ -1,0 +1,16 @@
+{
+  "component": "wav2wem.exe",
+  "repository": "https://github.com/pas2k/wav2wem",
+  "release": "v0.1",
+  "release_url": "https://github.com/pas2k/wav2wem/releases/tag/v0.1",
+  "asset_url": "https://github.com/pas2k/wav2wem/releases/download/v0.1/wav2wem.exe",
+  "published_digest_page": "https://github.com/pas2k/wav2wem/releases/expanded_assets/v0.1",
+  "source_archive": "https://github.com/pas2k/wav2wem/archive/refs/tags/v0.1.zip",
+  "tag_commit": "38e916953bec63862b13b449d780d1303a1bf29c",
+  "sha256": "5a10738a73d5451ede6a526a7aa0bfe7f42b41faffe78c9b62ec9f223f91d736",
+  "verification": "Local binary SHA-256 matches GitHub's published release-asset digest. Binary was not executed or independently rebuilt.",
+  "verified_date": "2026-11-01",
+  "license_notice": "GPLv2 per upstream; retain bundled wav2wem.txt and wav2wem-third-party.md. Complete corresponding-source obligations remain under review.",
+  "reported_detection": "User-supplied VirusTotal screenshot: Bkav Pro W32.Malware.7797BC48 and CrowdStrike Falcon Win/malicious_confidence_70% (D), 2/70; report last analysed seven days before screenshot.",
+  "safety_status": "Vendor review pending; matching upstream digest is provenance evidence, not a malware-free certification."
+}
