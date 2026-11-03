@@ -35,7 +35,7 @@ Both application sources declare 2.3.6. They are kept separate because platform
 packaging differs. Prebuilt EXE/DLL/PYD files are not corresponding source for
 their components; consult bundled notices and the provenance audit.
 
-Current source snapshot: [`00634710119f7047705b6c3acf0f2aafdb057f3b`](https://github.com/Yaromyr1/ModDiver-Lab-NEXUS/tree/00634710119f7047705b6c3acf0f2aafdb057f3b).
+Current source snapshot: [`e7d881c0d4e4dd1cd14f4bceedbebf7f34c610e9`](https://github.com/Yaromyr1/ModDiver-Lab-NEXUS/tree/e7d881c0d4e4dd1cd14f4bceedbebf7f34c610e9).
 
 ## Build provenance limitation
 
