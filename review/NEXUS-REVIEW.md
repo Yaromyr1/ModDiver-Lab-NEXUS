@@ -35,6 +35,8 @@ Both application sources declare 2.3.6. They are kept separate because platform
 packaging differs. Prebuilt EXE/DLL/PYD files are not corresponding source for
 their components; consult bundled notices and the provenance audit.
 
+Current source snapshot: [`00634710119f7047705b6c3acf0f2aafdb057f3b`](https://github.com/Yaromyr1/ModDiver-Lab-NEXUS/tree/00634710119f7047705b6c3acf0f2aafdb057f3b).
+
 ## Build provenance limitation
 
 The full available local development tree is now **2.4.2**. Its launcher and build
@@ -52,7 +54,7 @@ Subject: ModDiver Laboratory 2.3.6 — Windows and Linux quarantine review
 Hello Nexus Mods team,
 
 Please review the quarantined Windows and Linux v2.3.6 uploads on our mod page:
-[insert Nexus mod-page URL].
+https://www.nexusmods.com/helldivers2/mods/18393.
 
 Source and review materials:
 https://github.com/Yaromyr1/ModDiver-Lab-NEXUS
