@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Install ModDiver Laboratory
+Comment=Install dependencies and add ModDiver Laboratory to your application menu
+Exec=sh -c "exec sh \"\$(dirname \"\$1\")/install-linux.sh\"" sh %k
+Icon=system-software-install
+Terminal=true
+Categories=Game;Utility;

@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/xypwn/filediver",
+  "revision": "21ae4cb7c6293ecb98f4a69ad225d35823439045",
+  "purpose": "Name dictionaries and verified data layouts; no upstream executable is run.",
+  "dictionaries": {
+    "dl_type_names.txt": {
+      "source": "https://github.com/xypwn/filediver/blob/21ae4cb7c6293ecb98f4a69ad225d35823439045/hashes/dl_type_names.txt",
+      "sha256": "5cd561f650560f0500ea2b7c66175a67079c0e5df4912ead7b8aeed16b6246b8"
+    },
+    "hashes.txt": {
+      "source": "https://github.com/xypwn/filediver/blob/21ae4cb7c6293ecb98f4a69ad225d35823439045/hashes/hashes.txt",
+      "sha256": "d01f690b458082eeb7e32b0ea55f7b1da179887aeb2e32b9b9ee33e3d92ffe94"
+    },
+    "thinhashes.txt": {
+      "source": "https://github.com/xypwn/filediver/blob/21ae4cb7c6293ecb98f4a69ad225d35823439045/hashes/thinhashes.txt",
+      "sha256": "87663b2fbafdba7a61832a22be67f0c842678c482556ea6fe3e57a596becfa53"
+    }
+  },
+  "layout_note": "Go layout reference sources use the recorded revision. Dictionaries were retrieved from the public master branch; hashes pin the bundled bytes.",
+  "contents_note": "Only reference source and text dictionaries are bundled. No game binary or binary type library is included.",
+  "dictionary_revision": "21ae4cb7c6293ecb98f4a69ad225d35823439045"
+}

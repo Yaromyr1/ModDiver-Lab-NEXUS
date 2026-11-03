@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "hdremix.nomofomo-hidden-cosmetics",
+  "name": "NoMoFOMO + Hidden Content Unlocker Mod - Public 0.5.2 HD REMIX",
+  "configuration": {
+    "executable": "NoMoFOMO + Hidden Content Unlocker Mod HD REMIX.exe",
+    "arguments": [
+      "--loader-mode",
+      "--game-root",
+      "{dummy}"
+    ]
+  },
+  "build_sha256": {
+    "data/game/dl_library.dl_typelib": "6cc78f1a8323d82cc319ba3f378b0dbf692f8ede3703cd0873f7e212ce11a18a",
+    "bin/helldivers2.exe": "0acc07debe04714ae04281e1a66bd2eb9d3d85232953e32a93c8a3dd0874eabe",
+    "data/game/game.dll": "6d1d4d3bc6fc84801d9f8f1b310e13a603d07409f3d9495d74b42e1d0bb1c08f"
+  },
+  "files": []
+}

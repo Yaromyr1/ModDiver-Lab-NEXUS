@@ -1,0 +1,554 @@
+{
+  "format": 1,
+  "assets": {
+    "windows": {
+      "url": "https://github.com/Yaromyr1/ModDiver-Lab-NEXUS/releases/download/v2.3.6/ModDiver-Laboratory-Nexus-Windows.zip",
+      "sha256": "771bc7e3e1c17c277d46d58d72cbd49cf7070df13de4d8f32328176bcdba9194",
+      "size": 159112690
+    },
+    "linux": {
+      "url": "https://github.com/Yaromyr1/ModDiver-Lab-NEXUS/releases/download/v2.3.6/ModDiver-Laboratory-Nexus-Linux.zip",
+      "sha256": "52c05e59a2b3b4fbb832f1e2c5f46a5505e670e447fbca0e4e106e1baf6efdce",
+      "size": 58817870
+    },
+    "wav2wem": {
+      "url": "https://github.com/pas2k/wav2wem/releases/download/v0.1/wav2wem.exe",
+      "sha256": "5a10738a73d5451ede6a526a7aa0bfe7f42b41faffe78c9b62ec9f223f91d736",
+      "size": 5059072
+    }
+  },
+  "files": [
+    {
+      "path": "source/bot_background/1280.png",
+      "asset": "windows",
+      "member": "bot_background/1280.png",
+      "sha256": "fe38c9ee126482e362eb108c31bed415fe8287149a0a2d1d220148ae809339c7",
+      "size": 6529
+    },
+    {
+      "path": "source/bot_background/1600.png",
+      "asset": "windows",
+      "member": "bot_background/1600.png",
+      "sha256": "56d96de81b067f6b69dfde49577019b08c58725ea3e8ff942ad3cb6e94ea7f80",
+      "size": 8194
+    },
+    {
+      "path": "source/bot_background/1920.png",
+      "asset": "windows",
+      "member": "bot_background/1920.png",
+      "sha256": "66feb56a47559f2fb41c1d8db4abc54211b543fe2fa512c7f8bef2d023a2b29c",
+      "size": 10391
+    },
+    {
+      "path": "source/bot_background/320.png",
+      "asset": "windows",
+      "member": "bot_background/320.png",
+      "sha256": "f6d128ad32e0f9e64e3e72178f2570e490dc92b71f5687482242662190e33cbf",
+      "size": 1843
+    },
+    {
+      "path": "source/bot_background/480.png",
+      "asset": "windows",
+      "member": "bot_background/480.png",
+      "sha256": "017ccc17ae59b6170c89fee6862c4e07a9dd884b7815394a82148eb0dd9dd9e1",
+      "size": 2433
+    },
+    {
+      "path": "source/bot_background/640.png",
+      "asset": "windows",
+      "member": "bot_background/640.png",
+      "sha256": "2354f6bf1a11102cd8b222d0184b693990852fd5f84c1e193e1a62d4f5e7b21e",
+      "size": 3102
+    },
+    {
+      "path": "source/bot_background/800.png",
+      "asset": "windows",
+      "member": "bot_background/800.png",
+      "sha256": "afbde1c56b99db5429a01de06bc165b10a08c04552ece5ca5dab45051200819d",
+      "size": 3746
+    },
+    {
+      "path": "source/bot_background/960.png",
+      "asset": "windows",
+      "member": "bot_background/960.png",
+      "sha256": "99cde8ee8ebc49826b307c81fd0d03642d42b09939e6e7c3d2fe0067b3615dc8",
+      "size": 4566
+    },
+    {
+      "path": "source/branding/botB_1920x1080.png",
+      "asset": "windows",
+      "member": "branding/botB_1920x1080.png",
+      "sha256": "d8a1d9ea92fefad168dbeef2f4c4db891ea5af2b9137bd371086f2bcefeda270",
+      "size": 16157
+    },
+    {
+      "path": "source/branding/icon_256.png",
+      "asset": "windows",
+      "member": "branding/icon_256.png",
+      "sha256": "20d0f08394338a044aca32e5f02f0d89698551b01f0197cb5e418d2aabb84cc6",
+      "size": 32390
+    },
+    {
+      "path": "source/branding/icon_64.png",
+      "asset": "windows",
+      "member": "branding/icon_64.png",
+      "sha256": "6a81066daa72c67184c2363d6f1874219abc286e5eb3619db97bad6fa8177c3c",
+      "size": 5386
+    },
+    {
+      "path": "source/branding/moddiver_badge_hex.png",
+      "asset": "windows",
+      "member": "branding/moddiver_badge_hex.png",
+      "sha256": "2496ca1f8e1eb56e44f18d6cbca2d722e16ec26be856ff03cc378d527be8987f",
+      "size": 164086
+    },
+    {
+      "path": "source/branding/moddiver_beakerBackgroundLibrary.png",
+      "asset": "windows",
+      "member": "branding/moddiver_beakerBackgroundLibrary.png",
+      "sha256": "7ac76f80a7e3f0168823a7ee210d3cb23fdcffdaecdd37753977fe7ef62f3938",
+      "size": 55139
+    },
+    {
+      "path": "source/branding/moddiver_lab_logo.png",
+      "asset": "windows",
+      "member": "branding/moddiver_lab_logo.png",
+      "sha256": "bc42a06bf0c1f1afa0097e982cca34f15f7cdbfa642e3e8cfe25d851565d79d7",
+      "size": 75102
+    },
+    {
+      "path": "source/branding/moddiver_lockup.png",
+      "asset": "windows",
+      "member": "branding/moddiver_lockup.png",
+      "sha256": "66e7d3b69f0ef6f22966b9743763996d2d540785fc7a5640d8fbb7c2024a55c7",
+      "size": 173388
+    },
+    {
+      "path": "source/branding/sidebar/212.png",
+      "asset": "windows",
+      "member": "branding/sidebar/212.png",
+      "sha256": "64e84a051b663c94ae5f2eb628cbbb5ed03fc39ff01b8b7e777454e31e0e28e4",
+      "size": 7633
+    },
+    {
+      "path": "source/branding/sidebar/256.png",
+      "asset": "windows",
+      "member": "branding/sidebar/256.png",
+      "sha256": "2aca0c9963c1adcb640fcb0f056cf87ecc79b03aba8fe4f300ad13f6ed246795",
+      "size": 9648
+    },
+    {
+      "path": "source/branding/sidebar/265.png",
+      "asset": "windows",
+      "member": "branding/sidebar/265.png",
+      "sha256": "8a624dd770eb8110a6936ea8087bdd1b6968836e9ef06adfa37aa3d6ed6c266c",
+      "size": 10190
+    },
+    {
+      "path": "source/branding/sidebar/318.png",
+      "asset": "windows",
+      "member": "branding/sidebar/318.png",
+      "sha256": "c653b39a4c863171a23567c341c5b8d18243ce0fdc561b80563b30836e5bea72",
+      "size": 12338
+    },
+    {
+      "path": "source/branding/sidebar/384.png",
+      "asset": "windows",
+      "member": "branding/sidebar/384.png",
+      "sha256": "0aa933e26b00db1f2e23d3c08a25f1dc1d49290758c03b69a45b6873b86bad91",
+      "size": 14972
+    },
+    {
+      "path": "source/branding/sidebar/424.png",
+      "asset": "windows",
+      "member": "branding/sidebar/424.png",
+      "sha256": "a1cfd05c91e9a6277be56be72d306cfed2361bf1e820acd91a3333a113006f02",
+      "size": 16611
+    },
+    {
+      "path": "source/branding/sidebar/512.png",
+      "asset": "windows",
+      "member": "branding/sidebar/512.png",
+      "sha256": "546b333b02f45656bbf3a8778924ae3b9cb303fe1097159c9f1f8d6cd76f7961",
+      "size": 20610
+    },
+    {
+      "path": "source/builtin/gameplay/consistent_vaulting/data/game/generated_entities.dl_bin",
+      "asset": "windows",
+      "member": "builtin/gameplay/consistent_vaulting/data/game/generated_entities.dl_bin",
+      "sha256": "f256d75d0d68976e7a2ad91b06dbb26deaa594589e89e70abca7018c7aec77a9",
+      "size": 47259444
+    },
+    {
+      "path": "source/builtin/gameplay/stratagem_bounce_removed/data/game/generated_stratagem_settings.dl_bin",
+      "asset": "windows",
+      "member": "builtin/gameplay/stratagem_bounce_removed/data/game/generated_stratagem_settings.dl_bin",
+      "sha256": "e6f7a33dd9da8936d416e520cf3e5b51a87e86f7b17df7974620ae03099909c1",
+      "size": 82424
+    },
+    {
+      "path": "source/builtin/yao_loader/9ba626afa44a3aa3.patch_0",
+      "asset": "windows",
+      "member": "builtin/yao_loader/9ba626afa44a3aa3.patch_0",
+      "sha256": "a54c25954a4cdedc49fda6bfd3a70a6396613f033a57fcc0b4cb51ad0468957d",
+      "size": 11136
+    },
+    {
+      "path": "source/icon.ico",
+      "asset": "windows",
+      "member": "icon.ico",
+      "sha256": "76692977842e13cafa3041eb72ed29aa908c07e9bee57f185b2ea79e477a7b04",
+      "size": 59438
+    },
+    {
+      "path": "source/library_background/1024.png",
+      "asset": "windows",
+      "member": "library_background/1024.png",
+      "sha256": "0a81397acd70c65fe2feb63d7b0cc15823d22a630ae70e2b992285a2190b2670",
+      "size": 53037
+    },
+    {
+      "path": "source/library_background/256.png",
+      "asset": "windows",
+      "member": "library_background/256.png",
+      "sha256": "5d2477b9a54d62ae7fda29df4c29c7291b03eabdbbada23169b64846d1d417c3",
+      "size": 20034
+    },
+    {
+      "path": "source/library_background/384.png",
+      "asset": "windows",
+      "member": "library_background/384.png",
+      "sha256": "3ecfaa1ba5c4717f4230dc1faeae38aabe98dcc7c91d25e5b3e1c16965209bb2",
+      "size": 32506
+    },
+    {
+      "path": "source/library_background/512.png",
+      "asset": "windows",
+      "member": "library_background/512.png",
+      "sha256": "c0ea54f27fd478c3b4018416a8759416daa366b4823f6168d5e79c49b580ff62",
+      "size": 47923
+    },
+    {
+      "path": "source/library_background/640.png",
+      "asset": "windows",
+      "member": "library_background/640.png",
+      "sha256": "9dc75f1c9338b78f088fdd48cc1ff6fc019815091fc76d14061e87de663e4b59",
+      "size": 47745
+    },
+    {
+      "path": "source/library_background/768.png",
+      "asset": "windows",
+      "member": "library_background/768.png",
+      "sha256": "27292c816cf378c760ff5cab5abe12afd1161bbd94824ed7cb6bc3810359336a",
+      "size": 49693
+    },
+    {
+      "path": "source/library_background/896.png",
+      "asset": "windows",
+      "member": "library_background/896.png",
+      "sha256": "21489c82964c4778ef93b89c231125527d71a5e3170d289a10a36b93696c2605",
+      "size": 51055
+    },
+    {
+      "path": "source/vendor/audio_engine/audioStudio/data/bank_history.json",
+      "asset": "windows",
+      "member": "vendor/audio_engine/audioStudio/data/bank_history.json",
+      "sha256": "a42d54566de9e7cf92ba6a4efc56c1d6cdf1da26956cbcaffa51aebcebba64e5",
+      "size": 1311020
+    },
+    {
+      "path": "source/vendor/audio_engine/audioStudio/data/icon.png",
+      "asset": "windows",
+      "member": "vendor/audio_engine/audioStudio/data/icon.png",
+      "sha256": "2496ca1f8e1eb56e44f18d6cbca2d722e16ec26be856ff03cc378d527be8987f",
+      "size": 164086
+    },
+    {
+      "path": "source/vendor/audio_engine/audioStudio/data/subtitles.json",
+      "asset": "windows",
+      "member": "vendor/audio_engine/audioStudio/data/subtitles.json",
+      "sha256": "6d3b5ef6c840f7ad61ae952a83a856b6bea2c95dd9af84987f3089e6cac259ac",
+      "size": 610847
+    },
+    {
+      "path": "source/vendor/audio_engine/tools/avcodec-vgmstream-63.dll",
+      "asset": "windows",
+      "member": "vendor/audio_engine/tools/avcodec-vgmstream-63.dll",
+      "sha256": "047342e36b7f50c9d64e72a9b4b1b18df86e2fc32d6095a189ca361699df166f",
+      "size": 2501632
+    },
+    {
+      "path": "source/vendor/audio_engine/tools/avformat-vgmstream-63.dll",
+      "asset": "windows",
+      "member": "vendor/audio_engine/tools/avformat-vgmstream-63.dll",
+      "sha256": "6011518f5614582f14fc412fbf2d5192317b0586bcb8adfe1995320cb7227a0b",
+      "size": 1515520
+    },
+    {
+      "path": "source/vendor/audio_engine/tools/avutil-vgmstream-61.dll",
+      "asset": "windows",
+      "member": "vendor/audio_engine/tools/avutil-vgmstream-61.dll",
+      "sha256": "216ccd7ed4dbe224219420eff7d05f62adf1e94105eeaf3b2b6df8a63085caa0",
+      "size": 2006016
+    },
+    {
+      "path": "source/vendor/audio_engine/tools/ffmpeg.exe",
+      "asset": "windows",
+      "member": "vendor/audio_engine/tools/ffmpeg.exe",
+      "sha256": "3256173f3f8bffd7df12227c68adf68025edb1832273a9530688a7bb1ed8edec",
+      "size": 105423872
+    },
+    {
+      "path": "source/vendor/audio_engine/tools/ffprobe.exe",
+      "asset": "windows",
+      "member": "vendor/audio_engine/tools/ffprobe.exe",
+      "sha256": "f0d36ecbbdd3bcfac3efa078c96c7271c2e68b3810595552ac3b7f17e9a65c52",
+      "size": 105221120
+    },
+    {
+      "path": "source/vendor/audio_engine/tools/libatrac9.dll",
+      "asset": "windows",
+      "member": "vendor/audio_engine/tools/libatrac9.dll",
+      "sha256": "fe82f1ae13a798337e03942c35351997c23caadb5eb0c6b7a2dc2a521ed8b02e",
+      "size": 308736
+    },
+    {
+      "path": "source/vendor/audio_engine/tools/libcelt-0061.dll",
+      "asset": "windows",
+      "member": "vendor/audio_engine/tools/libcelt-0061.dll",
+      "sha256": "542254723d9100f91cbf18e41c4aff80287c22a9859e9e545c413d984df440ad",
+      "size": 110628
+    },
+    {
+      "path": "source/vendor/audio_engine/tools/libcelt-0110.dll",
+      "asset": "windows",
+      "member": "vendor/audio_engine/tools/libcelt-0110.dll",
+      "sha256": "bfcc51d865bb3b6a2793381bf535f23ec423feb722b46333fa8556ccdcafa61a",
+      "size": 105132
+    },
+    {
+      "path": "source/vendor/audio_engine/tools/libg719_decode.dll",
+      "asset": "windows",
+      "member": "vendor/audio_engine/tools/libg719_decode.dll",
+      "sha256": "aad61f205ce1f1b61285f6b37b90a331ec8c6ae2f94f361714dc21a12c236960",
+      "size": 156160
+    },
+    {
+      "path": "source/vendor/audio_engine/tools/libmpg123-0.dll",
+      "asset": "windows",
+      "member": "vendor/audio_engine/tools/libmpg123-0.dll",
+      "sha256": "018e6833088b3fc7d9a97c3f45abb5f9f947f7c46de4f17fddf423f430fa70fa",
+      "size": 429481
+    },
+    {
+      "path": "source/vendor/audio_engine/tools/libspeex-1.dll",
+      "asset": "windows",
+      "member": "vendor/audio_engine/tools/libspeex-1.dll",
+      "sha256": "04dbc85fcec6c54671535bf39937a70f2dd040a81ad670a0b84de6ca17b39bff",
+      "size": 129630
+    },
+    {
+      "path": "source/vendor/audio_engine/tools/libvorbis.dll",
+      "asset": "windows",
+      "member": "vendor/audio_engine/tools/libvorbis.dll",
+      "sha256": "5f330a20b19b3c70dc43eedcc95891e65940fca04a77155c573efcdd4c2ca665",
+      "size": 287232
+    },
+    {
+      "path": "source/vendor/audio_engine/tools/swresample-vgmstream-7.dll",
+      "asset": "windows",
+      "member": "vendor/audio_engine/tools/swresample-vgmstream-7.dll",
+      "sha256": "6de31a1b0caf676a6ebffceb9f540232db312773e97108cd93967e8a280da96e",
+      "size": 726528
+    },
+    {
+      "path": "source/vendor/audio_engine/tools/vgmstream-cli.exe",
+      "asset": "windows",
+      "member": "vendor/audio_engine/tools/vgmstream-cli.exe",
+      "sha256": "10fb0691538d3133f0115a071f89775fc99f32210b7e5991cfc3c2869247e4b2",
+      "size": 3135488
+    },
+    {
+      "path": "source/vendor/audio_engine/tools/wav2wem.exe",
+      "asset": "wav2wem",
+      "member": null,
+      "sha256": "5a10738a73d5451ede6a526a7aa0bfe7f42b41faffe78c9b62ec9f223f91d736",
+      "size": 5059072
+    },
+    {
+      "path": "source/vendor/audio_engine/windows/PIL/_avif.cp314-win_amd64.pyd",
+      "asset": "windows",
+      "member": "vendor/audio_engine/windows/PIL/_avif.cp314-win_amd64.pyd",
+      "sha256": "d8bd3032b72992a8166144a4063bae4a55c0f178d237454f17102301731e912a",
+      "size": 7890432
+    },
+    {
+      "path": "source/vendor/audio_engine/windows/PIL/_imaging.cp314-win_amd64.pyd",
+      "asset": "windows",
+      "member": "vendor/audio_engine/windows/PIL/_imaging.cp314-win_amd64.pyd",
+      "sha256": "d823c0e3b54035d08703bb427c553c956c2607b79395f2952e17a5447c5f1105",
+      "size": 2627072
+    },
+    {
+      "path": "source/vendor/audio_engine/windows/PIL/_imagingcms.cp314-win_amd64.pyd",
+      "asset": "windows",
+      "member": "vendor/audio_engine/windows/PIL/_imagingcms.cp314-win_amd64.pyd",
+      "sha256": "dff90929dbeb9d51eebf09f4454d0beb65775f7644145a63d66fa8ca9f5a96fd",
+      "size": 272384
+    },
+    {
+      "path": "source/vendor/audio_engine/windows/PIL/_imagingft.cp314-win_amd64.pyd",
+      "asset": "windows",
+      "member": "vendor/audio_engine/windows/PIL/_imagingft.cp314-win_amd64.pyd",
+      "sha256": "93c3ca5a3e7119897be9825a0a4228d485410fc8f1e42257edf7e89052c79bce",
+      "size": 2171392
+    },
+    {
+      "path": "source/vendor/audio_engine/windows/PIL/_imagingmath.cp314-win_amd64.pyd",
+      "asset": "windows",
+      "member": "vendor/audio_engine/windows/PIL/_imagingmath.cp314-win_amd64.pyd",
+      "sha256": "a7b3d6e462d338744694bc332f9f6f9c5717d532b7a74ad2762b3289521d0d9e",
+      "size": 21504
+    },
+    {
+      "path": "source/vendor/audio_engine/windows/PIL/_imagingmorph.cp314-win_amd64.pyd",
+      "asset": "windows",
+      "member": "vendor/audio_engine/windows/PIL/_imagingmorph.cp314-win_amd64.pyd",
+      "sha256": "591905867dd3da9bcf85bc1f84be66817d0399c5a5f25755322e4088c0d42c51",
+      "size": 12288
+    },
+    {
+      "path": "source/vendor/audio_engine/windows/PIL/_imagingtk.cp314-win_amd64.pyd",
+      "asset": "windows",
+      "member": "vendor/audio_engine/windows/PIL/_imagingtk.cp314-win_amd64.pyd",
+      "sha256": "79208042672ff0b9e3669d5078ad35413470861e783feeaf1430458c41036593",
+      "size": 14848
+    },
+    {
+      "path": "source/vendor/audio_engine/windows/PIL/_webp.cp314-win_amd64.pyd",
+      "asset": "windows",
+      "member": "vendor/audio_engine/windows/PIL/_webp.cp314-win_amd64.pyd",
+      "sha256": "f4d851381d1bd937753ba78e951c96a85f3a6c5ac402beec23fc13fdb6d45198",
+      "size": 416256
+    },
+    {
+      "path": "source/vendor/audio_engine/windows/lz4/_version.cp314-win_amd64.pyd",
+      "asset": "windows",
+      "member": "vendor/audio_engine/windows/lz4/_version.cp314-win_amd64.pyd",
+      "sha256": "9a2523299ae183c3ada536de68e9cf6a033a68e76032c723b40640ef55a5cac5",
+      "size": 11264
+    },
+    {
+      "path": "source/vendor/audio_engine/windows/lz4/block/_block.cp314-win_amd64.pyd",
+      "asset": "windows",
+      "member": "vendor/audio_engine/windows/lz4/block/_block.cp314-win_amd64.pyd",
+      "sha256": "2c0f5103b862110d8eaa80ea47f7a7e610f345a2b1d0edf447be94a2f2845dae",
+      "size": 76288
+    },
+    {
+      "path": "source/vendor/audio_engine/windows/lz4/frame/_frame.cp314-win_amd64.pyd",
+      "asset": "windows",
+      "member": "vendor/audio_engine/windows/lz4/frame/_frame.cp314-win_amd64.pyd",
+      "sha256": "54affd658881ed21dcb4d0fa1ed01c528a7173f0bd4d07c351439b0cf51c73e6",
+      "size": 115712
+    },
+    {
+      "path": "source/vendor/filediver/hashes.txt",
+      "asset": "windows",
+      "member": "vendor/filediver/hashes.txt",
+      "sha256": "1cf39f51f1a154bb0c3eb255165e6bf65e4db8e31942c624065d3717bad52025",
+      "size": 3410633
+    },
+    {
+      "path": "source/vendor/filediver/thinhashes.txt",
+      "asset": "windows",
+      "member": "vendor/filediver/thinhashes.txt",
+      "sha256": "87663b2fbafdba7a61832a22be67f0c842678c482556ea6fe3e57a596becfa53",
+      "size": 728585
+    },
+    {
+      "path": "source/vendor/hdremix052/Runtime/libsodium.dll",
+      "asset": "windows",
+      "member": "vendor/hdremix052/Runtime/libsodium.dll",
+      "sha256": "5cfdc4bf7628777d4fd807a6f9e15ed8fb6fdaee5be65c816b3c6c3dd1c93ed1",
+      "size": 346624
+    },
+    {
+      "path": "source/vendor/shodan/libsodium.dll",
+      "asset": "windows",
+      "member": "vendor/shodan/libsodium.dll",
+      "sha256": "396501c7495e4b03d0f8acb2416f3e2431b0cdc404968e17cc0e25c2abc5ca27",
+      "size": 484864
+    },
+    {
+      "path": "source/vendor/shodan/lua51.dll",
+      "asset": "windows",
+      "member": "vendor/shodan/lua51.dll",
+      "sha256": "3bbde83d93fd04da4653b06918efeaa32e8e0cd19786f43583991aa1ca705e2b",
+      "size": 557056
+    },
+    {
+      "path": "source/vendor/shodan/shodan_hash.dll",
+      "asset": "windows",
+      "member": "vendor/shodan/shodan_hash.dll",
+      "sha256": "141acb2e0f032011d4492f6769c39c4e57547d223c4833e636bf4e744b335327",
+      "size": 123904
+    },
+    {
+      "path": "source/wordmark_background/1280.png",
+      "asset": "windows",
+      "member": "wordmark_background/1280.png",
+      "sha256": "e06632052f9f288479545c8601ac55526984b171c4f45cbeef2d26b83f806b2d",
+      "size": 27543
+    },
+    {
+      "path": "source/wordmark_background/1600.png",
+      "asset": "windows",
+      "member": "wordmark_background/1600.png",
+      "sha256": "8429c29d7b7650295c2399b83494906e88a0f05c65fdfdf316bd7401da460ef1",
+      "size": 36728
+    },
+    {
+      "path": "source/wordmark_background/1920.png",
+      "asset": "windows",
+      "member": "wordmark_background/1920.png",
+      "sha256": "863e3f731a02ac2db22d15e2e2c4e659b1bdc73512438a559cdc13c388418666",
+      "size": 47208
+    },
+    {
+      "path": "source/wordmark_background/320.png",
+      "asset": "windows",
+      "member": "wordmark_background/320.png",
+      "sha256": "600f41e9f750340479d60f366dd19db9802910b04c34b64f3975509735804d99",
+      "size": 6104
+    },
+    {
+      "path": "source/wordmark_background/480.png",
+      "asset": "windows",
+      "member": "wordmark_background/480.png",
+      "sha256": "fda5cba759d63bce4e339db755f454eb218cb1ad0d8a4d45a61c4e6afe6d8eba",
+      "size": 9418
+    },
+    {
+      "path": "source/wordmark_background/640.png",
+      "asset": "windows",
+      "member": "wordmark_background/640.png",
+      "sha256": "201b7c6e8112600ab061e8f42c56fa1c34a1aa5984d0ef17460ec77bee0c61cf",
+      "size": 12149
+    },
+    {
+      "path": "source/wordmark_background/800.png",
+      "asset": "windows",
+      "member": "wordmark_background/800.png",
+      "sha256": "d7aa03214fde7301e1b0731a47b32244bba810c289d90f91bb9337225a450ab8",
+      "size": 15927
+    },
+    {
+      "path": "source/wordmark_background/960.png",
+      "asset": "windows",
+      "member": "wordmark_background/960.png",
+      "sha256": "c2fec5e33cd1dbedd918d83524e14a5767e7d489333fba28ee1373e70ef0adab",
+      "size": 18799
+    }
+  ]
+}

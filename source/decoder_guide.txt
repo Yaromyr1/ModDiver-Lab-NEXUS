@@ -1,0 +1,71 @@
+DATA DECODER — COMPLETE GUIDE
+
+WHAT THIS TOOL DOES
+The Data Decoder has Decode / Edit and Update Repair modes. Update Repair uses an old clean snapshot, current clean file, and broken mod to transfer supported changes onto current stock.
+
+UPDATE REPAIR — OFFSETS AND HASHES
+Stratagem flag edits can use the installed type library to match unique IDs in the verified 400-byte record layout when exact signatures fail. Only the declared two flag bits are transferred; unrelated updated bits remain intact. Other layouts or edits remain blocked. Data exports do not reproduce installer/runtime packaging: a packaging-only fix needs a compatible installer, even if gameplay payloads match. Both supplied example mods passed cross-update data/hash checks from build 26088801 to 26251122; they have not been validated in-game by Laboratory.
+EXTENDED DATA SUPPORT (2.0.11): Repeated block types require exact payload identity or two independent unique 32-byte anchors. Canonical trailing hash-correction padding is recognized by reproducing its bytes exactly, removed from comparison, and current-stock hash correction runs afresh on export. Record additions/resizing remain blocked. Grouped adjacent edits use adaptive exact signatures; ambiguous/conflicting fields still block export.
+Import old data baseline adds a supplied .dl_bin ZIP and its user-provided Steam build ID to Archive as data-only history. Inspect repaired reference reads supported HD2FM1 wrappers and can compare the original ZIP. It distinguishes identical gameplay bytes from changed data. No included loader/script is executed or automatically certified. Old profile checksums are validated and omitted from changed exports.
+AUTOMATIC REPAIR: Select a mod ZIP, folder, or main file. Laboratory searches its persistent Archive for a compatible baseline, uses current Steam game files, and writes a new folder under ModDiverLab/Repaired Mods. The report gives the output location for import into Mod Library. No manual baseline selection is required when a compatible build is available.
+ARCHIVE: The Archive button opens the saved build library and lists build IDs, dates and sizes. Complete copies of each captured Steam build's data directory are kept under ModDiverLab/Archive, alongside user data, across app updates. Builds are never automatically deleted. Each full data copy can take many gigabytes. Capture runs at startup, after purging, and before first deployment onto clean files; Archive current Steam build also captures on demand. Managed deployments and incomplete Steam installations block capture. Verify Steam files if external tools have modified them. Keep Steam from updating during capture.
+Older builds must be captured while still installed. The app cannot download missing old builds or capture updates while closed. Missing baselines or conflicting automatic matches block repair. Current archives with patch layers require a resolved clean archive through Advanced / Manual. Unsupported mod payloads block the entire export. Files and ZIPs containing multiple supported main files are repaired together.
+ADVANCED / MANUAL:
+Before an update, purge deployed mods and verify your game files. In Update Repair, Capture clean snapshot saves selected main files and matching sidecars into a new folder with a SHA-256 integrity manifest. Capture cannot prove files are unmodified. Keep the snapshot folder intact; this captures selected files, not the entire game automatically.
+After the update, choose the old file inside that snapshot, its current clean counterpart, and the broken mod main file. For .dl_bin files keep matching filenames. Analyse offsets + hashes shows resource positions, relocated payload edits and proven ID changes. Export repaired mod writes to a separate empty folder for import into Mod Library. Repeat for each main file in a multi-file mod.
+Repair relocates changed four-byte words only with unique unchanged surrounding signatures. Missing or ambiguous signatures, duplicate block identities and conflicting game edits block the whole export. Data files use the current stock content hash and must pass exact resealing verification. Archive hash renames require an identical unique old/new payload triplet; resource table offsets and sizes are rebuilt. Embedded hashes, internal pointers, arbitrary schema changes and asset format migrations are not inferred. Some single-block data files cannot be hash-corrected exactly and will refuse export. Test repaired copies in-game.
+
+DECODE / EDIT
+The decoder opens two different file families: sealed generated_*.dl_bin data files, and uncompressed Stingray archives / .patch_N containers. It decodes their structure, lets you edit existing payloads, then exports a new file. It does not automatically install exports into the game.
+
+BEFORE YOU START
+Keep an original copy of your input. For game-data edits, start from clean files matching your installed game version. Use Capture Clean Game Files in Merge and Deploy to keep a stock baseline. After a game update, purge deployed mods, verify the game through Steam, launch and exit the game, then capture fresh stock. The decoder's export cannot overwrite the file you opened.
+
+OPENING A .dl_bin DATA FILE
+1. Select OPEN FILE / ARCHIVE and choose a generated_*.dl_bin file from data/game or from a mod folder.
+2. The app decrypts the sealed file and lists its LDLD blocks. The left-hand columns show each block's offset, type identifier and payload size. These identifiers are not readable property names.
+3. Select a block. Data files use the main section; stream and GPU sections are archive-only concepts.
+
+CHOOSING A VIEW
+Hex shows the raw decoded payload as pairs of hexadecimal digits. Whitespace is allowed. Each pair is one byte. Changing a byte affects the actual stored data.
+UInt32 values interprets each aligned group of four bytes as an unsigned, little-endian integer. Enter decimal values or a 0x-prefixed hexadecimal integer between 0 and 4294967295.
+Float32 values interprets the same bytes as little-endian floating-point numbers. Enter a finite decimal or scientific-notation value. Many binary values are IDs, pointers or flags rather than floats: a strange decimal does not prove that a field is a float.
+Each numeric line has the form OFFSET: VALUE. Offsets are hexadecimal and relative to the selected payload, not the start of the entire file. Preserve offsets. Unlisted fields and any trailing bytes are retained. Duplicate, unaligned or out-of-bounds offsets are rejected.
+Switching a view changes how bytes are displayed; it does not convert their underlying type. The general decoder does not infer field names or schemas. For verified named properties, use the Native Game Data Editor in Mod Creator.
+
+NAMED EDITING IN MOD CREATOR
+Open the Native Game Data Editor, choose Open Game Database, and select the game's data/game folder. The matching dl_library.dl_typelib is required; it supplies types, offsets and array bounds. Select a file, search its entries, then double-click an editable property. Enum fields offer valid choices. Previous and Next page through large result lists. Export Edited File saves a separate mod copy for import into Mod Library.
+Many names are missing from the game's schema. Reference layouts recover some labels, but unresolved properties remain explicitly read-only. Rename Entry changes only your personal display label, not the game's identifiers. Coverage Report shows known-name coverage. The bundled NATIVE-EDITOR-COVERAGE report lists supported files and limitations.
+Schema footer export is experimental, off by default, and requires confirmation. It can preserve exact values by extending a supported dynamic final block, but is not game-tested for every file family. Normal export uses existing correction methods and asks before saving a small adjustment to an edited Float32 value. All exports preserve the original input file.
+
+EDITING AND STAGING
+Change the selected payload, then press Apply Edit. This stages the change in memory. When switching resources or views with an unapplied edit, choose whether to apply, discard or cancel the switch. Opening a different file asks before discarding staged replacements.
+LDLD edits must retain each block's original byte length. Adding/deleting records is not supported by this editor. Restore Original clears the selected payload's staged replacement. It does not discard changes in other blocks.
+
+RAW PAYLOAD IMPORT AND EXPORT
+Export Payload writes only the selected decoded payload, not a sealed .dl_bin or a complete archive. Import Replacement reads a raw payload produced by another tool. For .dl_bin files it must have exactly the original block size. For archives, payload sizes may change. Payloads larger than 2 MiB use file-based import/export instead of inline editing. Each archive component is limited to 2 GiB.
+
+EXPORTING A .dl_bin FILE
+1. Press EXPORT REPACKED FILE and select a new destination folder. Keep the original generated_*.dl_bin filename.
+2. The app reconstructs the data, preserves its original content hash, reseals it, decrypts it again and checks the result. With no edits, the original sealed bytes are copied exactly.
+3. Reserved header bytes are used for hash correction where possible. Some single-block layouts need a tiny change to a value explicitly edited in Float32 view. If this happens, a popup lists the exact requested and corrected values. Approve to save or cancel to keep your staged edits without exporting. Raw hex/import edits are not guessed to be floats.
+4. If the layout has no supported correction or a check fails, export stops. No fallback file with an invalid hash is emitted. On Linux, some unaligned layouts may need the slower LuaJIT fallback and can time out.
+
+OPENING AND EDITING STINGRAY ARCHIVES
+Open the archive's main file, normally <archive_id>.patch_N or a base archive. Keep matching .stream and .gpu_resources files beside it. Sidecars are loaded automatically; missing required data causes an error.
+The resource list uses hashed resource names/types. Select a resource and choose main, stream or gpu. Recognized Lua source resources can be edited in Lua source view; their length header is updated on Apply Edit. Other formats remain raw bytes. There are no model, texture or audio conversion tools here.
+An imported archive replacement includes the raw resource header if that resource format uses one. The repacker preserves resource order and unknown metadata, appends edited data at aligned offsets, updates offsets/sizes, then reparses the output. Resource addition/removal and compressed container variants are not supported.
+Export to the correct <archive_id>.patch_N main filename in a new folder. The main file and its matching .stream and .gpu_resources exports belong together. Do not rename one component independently.
+
+USING AN EXPORT IN THE GAME
+For .dl_bin files, place exports in their own mod folder with the original filenames. Add that folder to the Mod Library; generated data files are recognized as data/game targets. For archive mods, keep the exported triplet together in the mod folder and use the correct game archive ID in its filename. Add the folder, enable the mod, then use Merge and Install All. A green toggle only enables a mod; it does not install it.
+Exporting proves file/container integrity, not that a gameplay value is meaningful. Check changes in-game. If a change causes a problem, purge the deployment and restore or recapture a clean baseline before trying again. Hash correction cannot fix an invalid pointer, wrong ID, incompatible schema or stale game-data layout.
+
+COMMON PROBLEMS
+Invalid signature / no LDLD blocks: select the correct main archive or a supported sealed .dl_bin file. A resource payload exported by the decoder is not a complete sealed file.
+Block length changed: restore the original payload size; edit existing values rather than adding records.
+Missing sidecar: supply the .stream/.gpu_resources files from the same archive version.
+Hash correction failed: preserve the source, keep staged edits if needed, and review the file layout and edited value type. Some layouts cannot be corrected with the available methods.
+Conflicting mods: review library priority and overlapping fields. A valid exported file may still conflict with another mod. Purge restores the managed deployment; it does not repair changes from unrelated external tools.
+
+Bundled history includes all 55 generated data files from build 26088801 plus the build 26251122 repair inputs. Each packaged build is discovered automatically; replacing a bundle refreshes an older partial import. Supported data edits still need a matching witness and an unambiguous migration.
