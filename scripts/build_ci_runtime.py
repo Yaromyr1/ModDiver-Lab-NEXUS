@@ -21,7 +21,9 @@ def build(prefix, output):
     if not (prefix / 'tcl').is_dir() or not list((prefix / 'DLLs').glob('_tkinter*.pyd')):
         raise ValueError('Full CPython with Tcl/Tk is required; embeddable Python is insufficient.')
     output.parent.mkdir(parents=True, exist_ok=True)
-    paths = [p for p in prefix.iterdir() if p.is_file() and
+    # setup-python adds a python3.exe symlink on Windows. The app launches only
+    # python.exe/pythonw.exe; omit the unused alias rather than following links.
+    paths = [p for p in prefix.iterdir() if p.is_file() and p.name.lower() != 'python3.exe' and
              (p.suffix.lower() in ('.exe', '.dll') or p.name == 'LICENSE.txt')]
     for name in ('Lib', 'DLLs', 'tcl'):
         paths.extend(p for p in (prefix / name).rglob('*') if p.is_file())

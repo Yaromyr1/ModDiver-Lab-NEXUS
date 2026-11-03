@@ -5,6 +5,7 @@ import struct
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -66,7 +67,7 @@ class SigningTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
             prefix = root/'python'
-            files = {'python.exe': b'python', 'pythonw.exe': b'gui', 'LICENSE.txt': b'license',
+            files = {'python.exe': b'python', 'pythonw.exe': b'gui', 'python3.exe': b'alias', 'LICENSE.txt': b'license',
                      'Lib/encodings/__init__.py': b'encoding', 'DLLs/_tkinter.pyd': b'tk',
                      'tcl/tcl8.6/init.tcl': b'tcl', 'Lib/site-packages/foreign.py': b'omit'}
             for name, data in files.items():
@@ -74,11 +75,18 @@ class SigningTests(unittest.TestCase):
                 path.parent.mkdir(parents=True, exist_ok=True)
                 path.write_bytes(data)
             out = root/'runtime.zip'
-            build_ci_runtime.build(prefix, out)
+            # Model setup-python's alias without requiring Windows symlink privileges.
+            with patch.object(Path, 'is_symlink', lambda path: path.name == 'python3.exe'):
+                build_ci_runtime.build(prefix, out)
             with zipfile.ZipFile(out) as z:
+                self.assertNotIn('python3.exe', z.namelist())
                 self.assertNotIn('Lib/site-packages/foreign.py', z.namelist())
                 self.assertEqual(z.read('pythonw.exe'), files['pythonw.exe'])
                 self.assertEqual(z.read('LICENSE.txt'), b'license')
+            (prefix/'unexpected.dll').write_bytes(b'linked library')
+            with patch.object(Path, 'is_symlink', lambda path: path.name in ('python3.exe', 'unexpected.dll')):
+                with self.assertRaisesRegex(ValueError, 'symlink: unexpected.dll'):
+                    build_ci_runtime.build(prefix, root/'rejected.zip')
 
 
 if __name__ == '__main__':
